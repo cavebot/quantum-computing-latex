@@ -1,29 +1,42 @@
 {
   "name": "LaTeX (TeX Live + LaTeX Workshop)",
-  "image": "mcr.microsoft.com/devcontainers/latex:1-ubuntu-22.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "updateRemoteUserUID": true,
+  "remoteUser": "vscode",
+
+  // Install TeX Live and friends without a Dockerfile or Features
+  "onCreateCommand": "sudo apt-get update && sudo DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-bibtex-extra texlive-science latexmk biber chktex ghostscript poppler-utils inkscape make aspell aspell-en",
+
+  // If apt gets interrupted (rare), this retries on each start
+  "postStartCommand": "sudo apt-get update || true",
+
   "customizations": {
     "vscode": {
       "extensions": [
         "James-Yu.latex-workshop"
       ],
       "settings": {
-        "latex-workshop.latex.recipes": [
-          { "name": "latexmk (pdf)", "tools": ["latexmk"] },
-          { "name": "pdflatex ➜ biber ➜ pdflatex×2", "tools": ["pdflatex","biber","pdflatex","pdflatex"] },
-          { "name": "xelatex ➜ biber ➜ xelatex×2",   "tools": ["xelatex","biber","xelatex","xelatex"] }
-        ],
+        // Tools available in PATH because we installed via apt
         "latex-workshop.latex.tools": [
           { "name": "pdflatex", "command": "pdflatex", "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
           { "name": "xelatex",  "command": "xelatex",  "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
           { "name": "lualatex", "command": "lualatex", "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
           { "name": "biber",    "command": "biber",    "args": ["%DOCFILE%"] },
-          { "name": "latexmk",  "command": "latexmk",  "args": ["-pdf","-interaction=nonstopmode","-synctex=1","%DOC%"] }
+          { "name": "latexmk",  "command": "latexmk",  "args": ["-pdf","-interaction=nonstopmode","-synctex=1","%DOC%"] },
+          { "name": "latexmk-xelatex", "command": "latexmk", "args": ["-xelatex","-interaction=nonstopmode","-synctex=1","%DOC%"] },
+          { "name": "latexmk-shellescape", "command": "latexmk", "args": ["-pdf","-interaction=nonstopmode","-synctex=1","-shell-escape","%DOC%"] }
+        ],
+        "latex-workshop.latex.recipes": [
+          { "name": "latexmk (pdf)", "tools": ["latexmk"] },
+          { "name": "pdflatex ➜ biber ➜ pdflatex×2", "tools": ["pdflatex","biber","pdflatex","pdflatex"] },
+          { "name": "xelatex ➜ biber ➜ xelatex×2",   "tools": ["xelatex","biber","xelatex","xelatex"] },
+          { "name": "latexmk (pdf + shell-escape)",   "tools": ["latexmk-shellescape"] }
         ],
         "latex-workshop.view.pdf.viewer": "tab",
         "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.synctex.afterBuild.enabled": true,
         "latex-workshop.chktex.enabled": true
       }
     }
-  },
-  "remoteUser": "vscode"
+  }
 }
