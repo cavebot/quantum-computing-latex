@@ -1,0 +1,297 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{biomed-req}{online}{}{}
+      \list{organization}{1}{%
+        {National Library of Medicine}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{day}{26}
+      \field{month}{4}
+      \field{title}{Samples of Formatted References for Authors of Journal Articles}
+      \field{urlday}{27}
+      \field{urlmonth}{9}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.nlm.nih.gov/bsd/uniform_requirements.html
+      \endverb
+      \verb{url}
+      \verb http://www.nlm.nih.gov/bsd/uniform_requirements.html
+      \endverb
+    \endentry
+    \entry{Halpern-2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=8a82e6be0edbabae17df560df07d9a5f}{%
+           family={Halpern},
+           familyi={H\bibinitperiod},
+           given={S\bibnamedelima D},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cbc1733f6ae903b7ae430c31725ac27b}{%
+           family={Ubel},
+           familyi={U\bibinitperiod},
+           given={P\bibnamedelima A},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=79f4c713430220093471668ed08b295b}{%
+           family={Caplan},
+           familyi={C\bibinitperiod},
+           given={A\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{fullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{fullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{bibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{authorbibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{authornamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{authorfullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{authorfullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{New England Journal of Medicine}
+      \field{title}{Solid-organ transplantation in {HIV}-infected patients}
+      \field{volume}{347}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{284\bibrangedash 7}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1000/182
+      \endverb
+    \endentry
+    \entry{Rose-2002}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{hash=e852b164cd18a5ca7c7b3697dba8ff22}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=23dba423b0eee4138cb901471e466dc1}{%
+           family={Huerbin},
+           familyi={H\bibinitperiod},
+           given={M\bibnamedelima B},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=da62853a513d325c096b4f0e43024e8e}{%
+           family={Melick},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f5060248ba5b63750017fdfad67dc0d}{%
+           family={Marion},
+           familyi={M\bibinitperiod},
+           given={D\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=a6e81508fc02664fe03f2b511078d5f6}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={A\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c87fb20eb041cde891729f3b35b047d9}{%
+           family={Schiding},
+           familyi={S\bibinitperiod},
+           given={J\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{67c5d4c29e0cdb938e49f414a4938bb4}
+      \strng{fullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{fullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{bibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{authorbibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{authornamehash}{67c5d4c29e0cdb938e49f414a4938bb4}
+      \strng{authorfullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{authorfullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brain Research}
+      \field{title}{Regulation of interstitial excitatory amino acid concentrations after cortical contusion injury}
+      \field{volume}{935(1-2)}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{40\bibrangedash 6}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1000/182
+      \endverb
+    \endentry
+    \entry{Murray-2002}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=83b9ca420c247ded34433fa66d644b24}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={P\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=7cc5000a52e1220c94f8e8c3aac42e30}{%
+           family={Rosenthal},
+           familyi={R\bibinitperiod},
+           given={K\bibnamedelima S},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c73ee9f0528e35356e334484745383e5}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={G\bibnamedelima S},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=dab42e601d941b10cb37e78611c05f12}{%
+           family={Pfaller},
+           familyi={P\bibinitperiod},
+           given={M\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {St. Louis}%
+      }
+      \list{publisher}{1}{%
+        {Mosby}%
+      }
+      \strng{namehash}{353b1bbf3b847ef19dea4d89ba4674b1}
+      \strng{fullhash}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{fullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{bibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{authorbibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{authornamehash}{353b1bbf3b847ef19dea4d89ba4674b1}
+      \strng{authorfullhash}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{authorfullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Medical microbiology}
+      \field{year}{2002}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1000/182
+      \endverb
+    \endentry
+    \entry{Meltzer+AK+JMT}{inbook}{}{}
+      \name{author}{3}{}{%
+        {{hash=73e1b309fed4401dd1ff095991043a6c}{%
+           family={Meltzer},
+           familyi={M\bibinitperiod},
+           given={P\bibnamedelima S},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=07ab4c689377559c02345ccbb9b911e9}{%
+           family={Kallioniemi},
+           familyi={K\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba1e51cc8493a436f33f35aa2dd5fe05}{%
+           family={Trent},
+           familyi={T\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=5639a7f4aa37475fc876277905382bdf}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d8931db34b04229f7d0c70093cef038f}{%
+           family={Kinzler},
+           familyi={K\bibinitperiod},
+           given={K\bibnamedelima W},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{fullhash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{fullhashraw}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{bibnamehash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{authorbibnamehash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{authornamehash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{authorfullhash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{authorfullhashraw}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The genetic basis of human cancer}
+      \strng{crossref}{Vogelstein-2002}
+      \field{title}{Chromosome alterations in human solid tumors}
+      \field{year}{2002}
+      \true{nocite}
+      \field{pages}{93\bibrangedash 113}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1000/182
+      \endverb
+    \endentry
+    \entry{Vogelstein-2002}{book}{}{}
+      \name{editor}{2}{}{%
+        {{hash=5639a7f4aa37475fc876277905382bdf}{%
+           family={Vogelstein},
+           familyi={V\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d8931db34b04229f7d0c70093cef038f}{%
+           family={Kinzler},
+           familyi={K\bibinitperiod},
+           given={K\bibnamedelima W},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{fullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{fullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{bibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{title}{The genetic basis of human cancer}
+      \field{year}{2002}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1000/182
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
