@@ -1,0 +1,40 @@
+{
+  "name": "LaTeX (TeX Live + LaTeX Workshop)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/apt-packages:1": {
+      "packages": "texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra texlive-bibtex-extra texlive-science biber latexmk make ghostscript poppler-utils chktex aspell aspell-en inkscape python3-pip"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop"
+      ],
+      "settings": {
+        // Default tools/recipes for LaTeX Workshop
+        "latex-workshop.latex.tools": [
+          { "name": "pdflatex", "command": "pdflatex", "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
+          { "name": "xelatex",  "command": "xelatex",  "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
+          { "name": "lualatex", "command": "lualatex", "args": ["-interaction=nonstopmode","-synctex=1","%DOC%"] },
+          { "name": "biber",    "command": "biber",    "args": ["%DOCFILE%"] },
+          { "name": "latexmk",  "command": "latexmk",  "args": ["-pdf","-interaction=nonstopmode","-synctex=1","%DOC%"] }
+        ],
+        "latex-workshop.latex.recipes": [
+          { "name": "latexmk (pdf)", "tools": ["latexmk"] },
+          { "name": "pdflatex ➜ biber ➜ pdflatex×2", "tools": ["pdflatex","biber","pdflatex","pdflatex"] },
+          { "name": "xelatex ➜ biber ➜ xelatex×2",   "tools": ["xelatex","biber","xelatex","xelatex"] }
+        ],
+        // Nice defaults
+        "latex-workshop.synctex.afterBuild.enabled": true,
+        "latex-workshop.view.pdf.viewer": "tab",
+        "latex-workshop.message.error.show": true,
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.chktex.enabled": true
+      }
+    }
+  },
+  "postCreateCommand": "echo '% !TEX program = pdflatex' > /workspaces/.latexmkrc || true",
+  "remoteUser": "vscode"
+}
