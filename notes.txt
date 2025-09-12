@@ -1,0 +1,9 @@
+5. Variational / Hybrid Algorithms
+
+Core idea: Use parameterized quantum circuits + classical optimization.
+	•	VQE (Variational Quantum Eigensolver): Approximates ground-state energies.
+	•	QAOA (Quantum Approximate Optimization Algorithm): Approximates solutions to combinatorial optimization problems.
+	•	Quantum machine learning circuits (VQC, quantum kernels, QNNs): Embed classical data into Hilbert space for ML tasks.
+
+Use cases: chemistry (NISQ-friendly), optimization, hybrid ML.
+(Note: performance guarantees are weaker; no proven exponential speedups yet.)
