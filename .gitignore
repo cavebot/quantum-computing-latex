@@ -1,0 +1,59 @@
+# LaTeX intermediate and output files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# PDF and other output
+*.pdf
+*.dvi
+*.ps
+*.xdv
+
+# MacOS metadata
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# TeXShop and TeXworks
+*.texpadtmp
+*.texpadtmp.*
+*.pdfsync
+
+# Latexmk
+latexmkrc
+
+# Auxiliary directories
+_build/
+build/
+output/
+out/
