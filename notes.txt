@@ -1,3 +1,47 @@
+1. Fourier Transform / Period-Finding Family
+
+Core idea: Use the Quantum Fourier Transform (QFT) to detect hidden periodicity or spectral information.
+	•	Shor’s algorithm (1994): Factors integers and computes discrete logarithms via period finding → exponential speedup over classical.
+	•	Phase estimation (PEA): Estimates eigenvalues of unitaries with exponential precision → building block for chemistry, HHL, etc.
+	•	Hidden subgroup algorithms: Generalize Shor’s trick to groups; solves many algebraic problems.
+
+Use cases: cryptanalysis (RSA, elliptic curves), quantum chemistry (through PEA), problems with strong algebraic/periodic structure.
+
+⸻
+
+2. Amplitude Amplification Family
+
+Core idea: Use interference to “boost” the amplitude of marked solutions in a superposition.
+	•	Grover’s algorithm (1996): Unstructured search in O(\sqrt{N}).
+	•	Amplitude estimation: Improves Monte Carlo simulation quadratically.
+	•	Generalized amplitude amplification: Framework for many “oracle-based” speedups.
+
+Use cases: search problems, optimization primitives, Monte Carlo finance/physics, machine learning subroutines.
+
+⸻
+
+3. Quantum Walks & Hamiltonian Dynamics
+
+Core idea: Use quantum analogues of random walks or simulate continuous-time Hamiltonians for faster exploration of graphs/spaces.
+	•	Quantum walk algorithms: Faster hitting times and graph search.
+	•	Childs et al. (2003): Exponential separation for certain black-box problems.
+	•	Element distinctness (Ambainis): O(N^{2/3}) vs O(N).
+
+Use cases: graph problems, combinatorial optimization, black-box separations.
+
+⸻
+
+4. Linear Algebra / Simulation Family
+
+Core idea: Quantum systems are naturally linear-algebraic objects → leverage them for solving matrix and differential equations.
+	•	HHL algorithm (2009): Solves Ax=b in polylog dimension (under sparsity/conditioning assumptions).
+	•	Quantum simulation (Lloyd 1996 → 2020s advances): Simulate quantum systems with cost polynomial in system size.
+	•	Block-encoding + QSVT (Quantum Singular Value Transformation): Modern unifying framework for linear algebraic tasks.
+
+Use cases: quantum chemistry, materials science, PDEs, optimization as linear equations.
+
+⸻
+
 5. Variational / Hybrid Algorithms
 
 Core idea: Use parameterized quantum circuits + classical optimization.
@@ -7,3 +51,21 @@ Core idea: Use parameterized quantum circuits + classical optimization.
 
 Use cases: chemistry (NISQ-friendly), optimization, hybrid ML.
 (Note: performance guarantees are weaker; no proven exponential speedups yet.)
+
+⸻
+
+6. Error-Corrected / Fault-Tolerant Combinatorial Algorithms
+
+Core idea: Leverage full fault-tolerant quantum computers to revisit classical hard problems.
+	•	Grover-like quadratic speedups for NP search.
+	•	Quantum SDP solvers (Brandão et al., 2019): Solve semidefinite programs faster in certain regimes.
+	•	Quantum dynamic programming speedups for graph problems.
+
+Use cases: optimization, finance, logistics, ML subroutines.
+
+⸻
+
+7. Specialized / Emerging Families
+	•	Boson sampling & random circuit sampling: Not practical algorithms, but demonstrations of “quantum advantage” via sampling.
+	•	Quantum metrology & sensing: Use entanglement (e.g., GHZ states) to surpass classical precision scaling.
+	•	Quantum cryptography protocols: Not “algorithms” in the computational sense, but rely on fundamental no-cloning/interference.
