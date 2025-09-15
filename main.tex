@@ -195,7 +195,7 @@ It's all well and good to be able to create qubits and understand their properti
   \caption{Example of a simple 4-qubit quantum circuit. Each horizontal line represents a qubit, and the symbols show basic operations that can be performed on them such as the Hadamard gate (H), controlled-NOT gate (CNOT), phase gate (S), Pauli-X gate (X), and Pauli-Y gate (Y).}
 \end{figure}
 
-In practice, the experimental implementation of quantum gates depends on the physical system used to realise the qubits. For example, in superconducting qubits, microwave pulses are used to manipulate the energy levels of the qubits, while in trapped ion systems, laser pulses are used to control the internal states of the ions. Common single-qubit gates include the Pauli-X, Y, and Z gates (which correspond to bit-flip and phase-flip operations), as well as the Hadamard gate (which creates superposition). Multi-qubit gates, such as the CNOT (Controlled-NOT) gate, are essential for creating entanglement between qubits and enabling more complex quantum operations. Given that gate operations are actual physical operations, they take a finite duration of time. The time taken to perform a gate operation, known as the gate time $\tau_g$, is important in the context of quantum algorithms, as it must be much shorter than the coherence times ($\tau_1$ and $\tau_2$)(see next section).
+In practice, the experimental implementation of quantum gates depends on the physical system used to realise the qubits. For example, in superconducting qubits, microwave pulses are used to manipulate the energy levels of the qubits, while in trapped ion systems, laser pulses are used to control the internal states of the ions. Common single-qubit gates include the Pauli-X, Y, and Z gates (which correspond to bit-flip and phase-flip operations), as well as the Hadamard gate (which creates superposition). Multi-qubit gates, such as the CNOT (Controlled-NOT) gate, are essential for creating entanglement between qubits and enabling more complex quantum operations. Given that gate operations are actual physical operations, they take a finite duration of time. The time taken to perform a gate operation, known as the gate time $\tau_g$, is important in the context of quantum algorithms, as it must be much shorter than the coherence times ($\tau_1$ and $\tau_2$)(see practical challenges section).
 
 \subsection{. Decoherence, Errors, and Correction}
 In an actual quantum computer, we are far from the ideal mathematical situation of qubits being perfectly coherent, noise free, and decoupled from the environment. In practice, the quantum states required are incredibly delicate, generally requiring the system to be supercooled to near absolute zero temperatures, and isolated from all external influences. Even still, it is impossible to remove all sources of noise, and as such, the system is subject to decoherence. Decoherence is the proceess by which a quantum system loses its quantum properties due to interactions with its environment. This can occur through various mechanisms, such as thermal fluctuations, electromagnetic interference, or imperfections in the qubit fabrication process. Decoherence leads to the loss of superposition and entanglement, effectively collapsing the qubit states into classical states and destroying the quantum information they carry. This is not a limitation of hardware alone, but a fundamental property of quantum mechanics itself. As stated earlier, the coherence times $\tau_1$ and $\tau_2$ are critical metrics that quantify how long a qubit can maintain its quantum state before decoherence occurs. As we add more qubits to the system, the global coherence of the multi-qubit becomes exponentially more fragile and susceptible to decoherence, making it increasingly challenging to maintain the quantum information across the entire system. Decoherence ultimately results in the occurrence of errors during quantum computations as the global state collapses unpredictably.
@@ -206,14 +206,39 @@ To mitigate the effects of decoherence and gate errors, quantum error correction
 
 
 \section{. Practical Challenges in Quantum Computing}
-To achieve a genuine exponential speedup with a quantum algorithm, it is not enough to just put data into superposition — 
-the critical ingredient is finding a global structure in the problem that quantum interference can exploit efficiently. In practice, this means (i) encoding the 
-problem into a quantum state space so that relevant solutions are distributed across amplitudes, (ii) having an operation that introduces a regular, 
-exploitable pattern (periodicity, symmetry, or spectral property), and (iii) applying transformations — such as the Quantum Fourier Transform, amplitude amplification, 
-or quantum walks — that sharpen interference in favor of the correct answers while suppressing others. Exponential gains only arise when the quantum evolution can 
-collapse an exponentially large superposition into a sharply distinguishable measurement outcome in polynomial time, something that classical algorithms cannot 
-replicate without exponential resources. In short, exponential quantum advantage emerges when there is a hidden algebraic or structural feature in the problem that 
-quantum linear algebra can amplify, rather than from brute-force parallelism alone.
+\subsection{1. Decoherence and Noise}
+As stated in the previous section, the fragility of quantum states plays a huge role in the accuracy of quantum computations. Qubits interact unavoidably with their environments, leading to decoherence that destroys superpositions and entanglement, which are essential for quantum advantage and reducing the error rates of quantum gates. Minimizing decoherence and noise is one of the biggest challenges in building practical quantum computers. The scaling effect of decoherence and noise is particularly problematic as the number of qubits increases, making it exponentially more difficult to maintain coherence across the entire system as we enter the realm of hundreds to thousands of qubits.
+
+
+\subsection{. Gate Fidelity and Speed}
+Given the coherence windows $\tau_1$ and $\tau_2$, these set a hard limit on how many gate operations can be performed before the quantum information is lost. As a real example in trapped ion systems, which can have exceptionally long coherence times of the order of seconds or longer, single-qubit gate times can be on the order of microseconds, while two-qubit gates can take tens to hundreds of microseconds. For a 50 second coherence time and 500$\mu s$ gate time, this allows for only 100,000 gate operations before decoherence occurs and destroys the computation. When considering a practical algorithm like Shors algorithm for integer factorization, this number seems far more than enough when considering the trvial example of factoring the number 15 (4-bits) into its factors of 3 and 5. But entering the regime of RSA encryption where we are dealing with 2048-bit numbers to be factorized, we are looking at the order of trillions of gate operations. Thus, faster gate operations are desirable to maximize the number of operations that can be performed within the coherence time. However, increasing gate speed often comes at the cost of reduced gate fidelity, as faster gates can be more susceptible to control errors and noise. Thus, there a balance must be struck between gate speed and fidelity that must be carefully managed to optimize the performance of quantum computers.
+
+Gate fidelity itself is a critical factor, as even tiny errors in gate operations can accumulate over the course of a quantum computation, leading to incorrect results. Achieving high gate fidelities (e.g., above 99.9\%)\cite{99.9percent-required-fidelity} is essential for practical quantum computing, but this remains a significant challenge due to various sources of noise and imperfections in the control systems used to manipulate qubits.
+
+3. Error Correction, Fault Tolerance and the Logical-Physical Qubit Gap
+Overhead problem: Leading schemes like surface codes or color codes require hundreds to thousands of physical qubits per logical qubit.
+Thresholds: Achieving fault tolerance requires error rates below code-specific thresholds (~1 percent for 2D surface codes, lower for others).
+Connectivity constraints: Error-correcting codes often assume 2D nearest-neighbor layouts, which restricts architecture choices unless long-range couplers are engineered.
+
+4. Qubit Connectivity and Architecture
+Physical layout: Current technologies (superconducting circuits, trapped ions, neutral atoms, spin qubits) impose specific geometrical constraints on connectivity.
+Scaling bottlenecks: Long-range entanglement and modular interconnects are in development, but practical quantum networks are immature.
+Cross-talk: Increasing qubit density introduces electromagnetic or motional interference that couples errors across the system.
+
+5. Control and Calibration
+Complexity explosion: Each qubit requires individual calibration of frequencies, pulse shapes, and error mitigation parameters.
+Classical overhead: Classical control electronics (microwave sources, lasers, cryogenics) scale poorly in energy and complexity.
+Stability: Drift in hardware requires frequent recalibration, reducing uptime and computational efficiency.
+
+6. Resource Requirements for Algorithms
+Logical vs physical gap: Algorithms like Shor’s factoring or HHL require millions of error-corrected qubits, far beyond today’s NISQ-era machines (<1,500 physical qubits).
+Noise-resilient algorithms: Near-term strategies (variational, hybrid quantum–classical methods) face barren-plateau problems and limited provable speedup.
+Compilation overhead: Translating abstract algorithms into native hardware gates introduces further depth and error accumulation.
+
+7. Engineering and Systems Integration
+Cryogenics: Superconducting qubits require dilution refrigerators at ~10 mK, which struggle to scale to millions of control lines.
+Laser and vacuum systems: Trapped ions and neutral atoms require stable optical setups that are difficult to miniaturize.
+Fabrication: Achieving uniform, scalable, and reproducible qubits remains an open challenge, with variability causing large yield losses.
 
 \section{. Leading Quantum Hardware Platforms}
 

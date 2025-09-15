@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  15 SEP 2025 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  15 SEP 2025 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -877,7 +877,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<assets/LOGO-UF-SOLO (1).png, id=50, 1304.875pt x 301.125pt>
+<assets/LOGO-UF-SOLO (1).png, id=58, 1304.875pt x 301.125pt>
 File: assets/LOGO-UF-SOLO (1).png Graphic file (type png)
 <use assets/LOGO-UF-SOLO (1).png>
 Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 90.
@@ -929,7 +929,7 @@ Overfull \hbox (59.75209pt too wide) in paragraph at lines 97--128
 
 
 
-<assets/bloch-sphere.png, id=68, 123.0999pt x 139.2402pt>
+<assets/bloch-sphere.png, id=76, 123.0999pt x 139.2402pt>
 File: assets/bloch-sphere.png Graphic file (type png)
 <use assets/bloch-sphere.png>
 Package pdftex.def Info: assets/bloch-sphere.png  used on input line 171.
@@ -960,27 +960,35 @@ LaTeX Warning: Citation '99.9percent-required-fidelity' on page 4 undefined on i
 
 [4]
 
+LaTeX Warning: Citation '99.9percent-required-fidelity' on page 5 undefined on input line 216.
+
+
+
+
+
+[5]
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 291.
+(Font)              <9> on input line 316.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 291.
+(Font)              <6> on input line 316.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 291.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 316.
 
 
-[5] [6
+[6] [7
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.292 \end{document}
+l.317 \end{document}
                     ]
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPage on input line 292.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPage on input line 317.
 \c@pagesLTS.arabic.1.local.count=\count446
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting VeryLastPage on input line 292.
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPages on input line 292.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting VeryLastPage on input line 317.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPages on input line 317.
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 (./main.aux)
  ***********
@@ -992,7 +1000,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2A5BB30151634E4DC7B6B98357ACF04E;2575.
+(rerunfilecheck)             Checksum: 86575442E9CD152EE33B94ABFB8A420B;2957.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -1003,18 +1011,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22183 strings out of 473190
- 380550 string characters out of 5715800
- 1305184 words of memory out of 5000000
- 45108 multiletter control sequences out of 15000+600000
+ 22188 strings out of 473190
+ 380616 string characters out of 5715800
+ 1305187 words of memory out of 5000000
+ 45110 multiletter control sequences out of 15000+600000
  572322 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,26n,93p,1668b,1789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbsr17.pfb>
-Output written on main.pdf (6 pages, 632813 bytes).
+Output written on main.pdf (7 pages, 637131 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 99 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
