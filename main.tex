@@ -215,7 +215,15 @@ Given the coherence windows $\tau_1$ and $\tau_2$, these set a hard limit on how
 
 Gate fidelity itself is a critical factor, as even tiny errors in gate operations can accumulate over the course of a quantum computation, leading to incorrect results. Achieving high gate fidelities (e.g., above 99.9\%)\cite{99.9percent-required-fidelity} is essential for practical quantum computing, but this remains a significant challenge due to various sources of noise and imperfections in the control systems used to manipulate qubits.
 
-3. Error Correction, Fault Tolerance and the Logical-Physical Qubit Gap
+\subsection{. Error Correction, Fault Tolerance and the Logical-Physical Qubit Gap}
+
+Given the probabilistic guarantee of gate faults and decoherence faults, as absolute requirement of quantum computing is to design the computations to be fault tolerant.
+Acheiving fault tolerance in quantum computers opens its own entire area of research known as error correction with its own domain of difficulties. 
+The goal of rrror correction  to accept that faults are guaranteed to occur, and aims to detect them, and in turn correct them.
+In general, this is achieved through the concept of a \textit{logical qubit}. While actual physical qubits are capable of computation,
+the probability of error is too high to achieve correct results for realistic problems. A logical qubit is an an {collection} of qubits that are used
+for redundancy in the case of errors. We might then say, that one \textit{useful} quibit consists of multiple physical qubits. It is this logical qubit that quantum
+computation is done with. The logical qubit becomes a fault tolerant qubit via the implementation of error correction codes which use the ensemle to correct errors that 
 Overhead problem: Leading schemes like surface codes or color codes require hundreds to thousands of physical qubits per logical qubit.
 Thresholds: Achieving fault tolerance requires error rates below code-specific thresholds (~1 percent for 2D surface codes, lower for others).
 Connectivity constraints: Error-correcting codes often assume 2D nearest-neighbor layouts, which restricts architecture choices unless long-range couplers are engineered.

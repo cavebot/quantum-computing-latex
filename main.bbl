@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global/global}
-    \entry{Monroe1995}{article}{}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{Monroe1995}{article}{}
       \name{author}{5}{}{%
         {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
            family={Monroe},
@@ -49,12 +49,10 @@
       }
       \strng{namehash}{17de335944f22fa365445a8b67db6e84}
       \strng{fullhash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{fullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{bibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{authorbibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
       \strng{authorfullhash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{authorfullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -74,7 +72,7 @@
       \verb https://tf.nist.gov/general/pdf/140.pdf
       \endverb
     \endentry
-    \entry{biomed-req}{online}{}{}
+    \entry{biomed-req}{online}{}
       \list{organization}{1}{%
         {National Library of Medicine}%
       }
@@ -97,7 +95,7 @@
       \verb http://www.nlm.nih.gov/bsd/uniform_requirements.html
       \endverb
     \endentry
-    \entry{Halpern-2002}{article}{}{}
+    \entry{Halpern-2002}{article}{}
       \name{author}{3}{}{%
         {{hash=8a82e6be0edbabae17df560df07d9a5f}{%
            family={Halpern},
@@ -117,12 +115,10 @@
       }
       \strng{namehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{fullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
-      \strng{fullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{bibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorbibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authornamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorfullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
-      \strng{authorfullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -138,7 +134,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Rose-2002}{article}{}{}
+    \entry{Rose-2002}{article}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{6}{}{%
@@ -175,12 +171,10 @@
       }
       \strng{namehash}{67c5d4c29e0cdb938e49f414a4938bb4}
       \strng{fullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
-      \strng{fullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{bibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{authorbibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{authornamehash}{67c5d4c29e0cdb938e49f414a4938bb4}
       \strng{authorfullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
-      \strng{authorfullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -196,7 +190,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Murray-2002}{book}{}{}
+    \entry{Murray-2002}{book}{}
       \name{author}{4}{}{%
         {{hash=83b9ca420c247ded34433fa66d644b24}{%
            family={Murray},
@@ -227,12 +221,10 @@
       }
       \strng{namehash}{353b1bbf3b847ef19dea4d89ba4674b1}
       \strng{fullhash}{ea61e236a416491f47415b7a7f1d03ef}
-      \strng{fullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{bibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{authorbibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{authornamehash}{353b1bbf3b847ef19dea4d89ba4674b1}
       \strng{authorfullhash}{ea61e236a416491f47415b7a7f1d03ef}
-      \strng{authorfullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -245,7 +237,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Meltzer+AK+JMT}{inbook}{}{}
+    \entry{Meltzer+AK+JMT}{inbook}{}
       \name{author}{3}{}{%
         {{hash=73e1b309fed4401dd1ff095991043a6c}{%
            family={Meltzer},
@@ -283,16 +275,13 @@
       }
       \strng{namehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{fullhash}{e0b856fe72069e5af21161f59d3571f6}
-      \strng{fullhashraw}{e0b856fe72069e5af21161f59d3571f6}
       \strng{bibnamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authorbibnamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authornamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authorfullhash}{e0b856fe72069e5af21161f59d3571f6}
-      \strng{authorfullhashraw}{e0b856fe72069e5af21161f59d3571f6}
       \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -308,7 +297,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Vogelstein-2002}{book}{}{}
+    \entry{Vogelstein-2002}{book}{}
       \name{editor}{2}{}{%
         {{hash=5639a7f4aa37475fc876277905382bdf}{%
            family={Vogelstein},
@@ -329,12 +318,10 @@
       }
       \strng{namehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{fullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \strng{fullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{bibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{editor}
