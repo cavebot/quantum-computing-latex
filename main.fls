@@ -1,8 +1,8 @@
-PWD /Users/adamprior/Documents/latex/quantum computing
+PWD /Users/adamprior/Documents/latex projects/quantum-computing-latex
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/adamprior/Documents/latex/quantum computing/main.tex
+INPUT /Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex
 OUTPUT main.log
 INPUT ./elbioimp2.cls
 INPUT elbioimp2.cls
@@ -218,6 +218,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xypic/xyarrow.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xypic/xyarrow.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xypic/xyarc.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/xypic/xyarc.tex
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT ./main.aux
 INPUT ./main.aux
 INPUT main.aux
@@ -285,10 +287,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/tbmr10.tfm
-INPUT ./assets/test-ill.png
-INPUT ./assets/test-ill.png
-INPUT ./assets/test-ill.png
-INPUT ./assets/test-ill.png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
@@ -297,19 +295,27 @@ INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/ebmo9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbr9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrmi9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsy9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsy8.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/ebmo9.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb

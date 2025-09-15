@@ -3,7 +3,8 @@
 
 \usepackage[backend=biber,style=vancouver]{biblatex}
 \usepackage{csquotes}
- \usepackage{qcircuit}
+\usepackage[braket]{qcircuit}
+\usepackage{float}
 
 \title{The state of Quantum Computing in 2025}
 % \shorttitle{Short version of title}
@@ -29,7 +30,7 @@
   computing, it reviews foundational concepts, historical advancements, and leading hardware and software platforms. The paper
   also discusses practical challenges, potential applications, and the outlook for future developments in the field.
 
-  \keywords{Quantum Computing; Quibits; Decoherence; robotics}
+  \keywords{Quantum Computing; Qubits; Decoherence; robotics}
 \end{abstract}
 
 \section{. Introduction}
@@ -50,7 +51,7 @@ systems and how quantum systems can be more efficiently simulated.
 
 Given these initial few years of defining work, the field began
 to gain traction, followed by another \textit{10 years} of foundational theoretical developments.
-In 1985, David Deutsch further developed the quantum computing theory by rigorously defining the  
+In 1985, David Deutsch further developed the quantum computing theory by rigorously defining the
 Universal Quantum Turing Machine (the quantum analog of a classical Turing machine) capable of
 performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}. 
 Further theoretical advancements continued with contributions from, reversible quantum computation by Paul Benioff between
@@ -69,56 +70,140 @@ is an efficient quantum algorithm for integer factorization in polynomial time, 
 algorithms which run in sub-exponential time. This algoirithm in some sense `proved' the potential of quantum computing
 to solve practical problems that are intractable for classical computers, particularly in the context of cryptography, as
 many encryption schemes rely on the difficulty of factoring large integers. 
-Another significant algorithm is Grover's algorithm, proposed by Lov Grover two years later\cite{Grover1996}, which provides
-a quadratic speedup for unstructured search problems.
+Another significant algorithm is Grover's algorithm, proposed by Lov Grover two years later\cite{Grover1996}, providing
+quadratic speedup for unstructured search problems.
+
+While these algorithms demonstrate the theoretical potential of quantum computers, they would be useless without
+the ability to assemble a physical quantum computer. Around the same time as these algorithmic developments,
+experimental researchers were developing the first real qubits and quantum gates. The first experimental demonstration
+of a quantum logic gate was realised in 1995 by a team using an electromagnetic trap to confine ions in place to form a two-qubit
+system. The energy levels of the ions are used to represent the qubit states (|0⟩ and |1⟩), while laser pulses are used 
+to manipulate these states. The team successfully implemented a controlled-NOT (CNOT) gate, which is a fundamental quantum gate
+universal quantum gate used in many quantum algorithms\cite{Monroe1995}. 
+One might define this point in time as the take-off point in the history of quantum computing as it was demonstrated, roughly in parallel,
+to be both theoretically computationally advantageous (for certain classes of problems) and experimentally realisable and a large acceleration
+in research and development followed. Over the next decade experiments would demonstrate  more complex gates, and increased amount of qubits 
+(8 qubit registers by December 2005)\cite{https://www.nature.com/articles/nature04279}, and even new quantum systems that can implement qubits 
+such as superconducting states, nuclear spins, quantum dots and even photon polarization\cite{Monroe1995}. Theoretical advancements also continued, with the 
+development of quantum error correction codes and various proofs of principle for quantum algorithms that further highlighted feasability and
+limitations.
+
+Up to this point, it is well known that quantum computers suffer from an extreme scaling problems. Qubits are extremely sensitive to their environment
+and suffer badly from quantum decoherence which limits the rate at which additional qubits can be added to a system before the entire system becomes unstable
+highlighting why it took so long to scale beyond only a few qubits. Table~\ref{tab:qubit_counts} summarizes some of the key leaps in qubiit counts over the years.
+
+\begin{table*}[b]
+\centering
+\begin{tabular}{|c|c|l|}
+\hline
+\textbf{Year} & \textbf{Qubit Count} & \textbf{Description} \\
+\hline
+1995 & 2 & First experimental demonstration of a quantum logic gate using trapped ions\cite{Monroe1995} \\
+\hline
+2001 & 7 & Implementation of Shor's algorithm on a 7-qubit NMR quantum computer\cite{Vandersypen2001} \\
+\hline
+2005 & 8 & Demonstration of an 8-qubit register using trapped ions\cite{https://www.nature.com/articles/nature04279} \\
+\hline
+2011 & 5 & D-Wave Systems announced a 512-qubit quantum annealer\cite{DWave2011} \\
+\hline
+2016 & 16 & IBM unveiled a 16-qubit superconducting quantum processor\cite{IBM2016} \\
+\hline
+2017 & 20 & Google announced a 20-qubit superconducting quantum processor\cite{Google2017} \\
+\hline
+2019 & 53 & Google's Sycamore processor achieved quantum supremacy with 53 qubits\cite{Arute2019} \\
+\hline
+2020 & 65 & Honeywell announced a 65-qubit trapped-ion quantum computer\cite{Honeywell2020} \\
+\hline
+2021 & 127 & IBM unveiled a 127-qubit superconducting quantum processor\cite{IBM2021} \\
+\hline
+2022 & 433 & IonQ announced a 433-qubit trapped-ion quantum computer\cite{IonQ2022} \\
+\hline
+2023 & 1000+ & Various companies announced plans for quantum processors with over 1000 qubits\cite{Various2023} \\
+\hline
+2024 & 2000+ & Continued advancements with processors exceeding 2000 qubits\cite{Various2024} \\
+\hline
+2025 & 5000+ & Leading companies project quantum processors with over 5000 qubits\cite{Various2025} \\
+\hline
+\end{tabular}
+\caption{Key advancements in qubit counts from 1995 to 2025 and their corresponding platforms.}\label{tab:qubit_counts}
+\end{table*}
+
+
+% "The next major advancement in quantum computing came in 2009 with the proposal of topological qubits
+% by Alexei Kitaev\cite{Kitaev2003}. Topological qubits are designed to be more robust against local sources of decoherence by encoding information in global properties of the system
+% rather than local states. This approach promised to significantly reduce error rates and improve the scalability of quantum computers. While still in the experimental stage, topological qubits represent a promising avenue for building more practical and scalable quantum computers."
 
 
 \section{. Fundamentals of Quantum Computing}
-This document is a template for \LaTeX. 
-Please use the electronic version of this document as a
-template when you produce your manuscript for submission to the
-\emph{Nordic Machine Intelligence}. The paper size is A4 (21 × 
-29.7~cm).
-
-The introduction section of your paper should include the necessary
-background information, including an adequate review of earlier
-findings and the justification for conducting this study.
+In order to properly understand the current state of quantum computing, it is important to first understand
+some of the fundamental concepts. What exactly is a qubit? What is superposition and entanglement? What is a quantum gate?
 
 \subsection{. Qubits and their construction}
-All figures should be numbered consecutively with the figure legend
-indented 0.5\,cm on each side. See figure commented fig for an example.
-Figures may be in color or black and white and must be of such quality
-that they produce clear and sharp printouts on an ordinary (color)
-laser printer.
+For the average reader without a background in quantum mechanics, but with at least some technical background in computing,
+a qubit can be thought of as the quantum analog of a classical bit. When we use the term `classical', we specifically mean 
+non-quantum, as in the type of computing that underpins all modern computers today. A classical bit represents the fundamental 
+unit of information in classical computing and is binary in nature, meaning that a bit exists in either one of two states, usually
+represented as 0 or 1. In classical physics, it is straightforward to encode a bit's state as either 0 or 1. Usually this is done
+using voltage levels, where a high voltage might represent a 1 and a low voltage a 0. An important point to state at this point
+is that a classical bit can only exist in one of these two states at any given time. In classical physics there is no such thing as being both high and low voltage at the same time. It is either one or the other.
+
+Similarly a qubit is also a binary unit of information, but it operates according to the principles of quantum mechanics. There are many quantum mechanical systems that can be used to physically realise a qubit, and generally, any two-level quantum system can technically be used as a qubit. Consider, for example, the spin angular momentum of an electron. This `spin' can take strictly two values: `up' or `down', which can be used to represent the 0 and 1 states of a qubit. Other physical systems that can be used to realise qubits include the polarization states of photons, energy levels of atoms or ions, and superconducting circuits. We are not limited to just electronic spins but a rich variety of physical systems can be used to implement qubits, each with its own advantages and challenges. Such systems include but are not limited to:
+\begin{itemize}
+  \item Trapped Ions electronic states
+  \item Superconducting states (charge, flux, or phase)
+  \item Photonic Qubits (polarization states, number of photons, etc)
+  \item Quantum Dots (electron localization states, spin)
+  \item Nuclear Spins (nuclear magnetic resonance spin)
+\end{itemize}
+
+When we consider that the underlying quantum system is being used as just a different way to encode a binary state, it might be tempting to think of a qubit as just a more complex representation of a classical bit. However, the actual power of of quibits lies in their ability to exist in a state called a \textit{quantum superposition}, which is a fundamental principle of quantum mechanics.
 
 
-\section{. Leading Quantum Hardware Platforms}
-Use this section to present the results from the measurements or
-studies that were described in the last section, but without going
-into any discussion about the results.
+\subsection{. Quantum States, Superposition and Entanglement}
+In the realm of quantum mechanics we represent the state of a quantum system using a special notation called Bra-ket notation. In this notation, the up state is represented as |0⟩ and the down state as |1⟩. As mentioned previously, however, unlike a classical bit, a qubit can exist in a combination (superposition) of both states simultaneously. For those who are mathematically inclined, this means that a qubit can be in a state that is a linear combination of |0⟩ and |1⟩, represented mathematically as:
+\begin{equation}
+  |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+\end{equation}
 
-% \begin{figure}[htp]
-%   \centering
-%   \includegraphics[width=0.7\columnwidth]{assets/test-ill}
-%   \caption{Box-plot showing median value (line), mean value (cross),
-%     middle 50\,\% (box) and smallest and largest point within 
-%     1.5~interquartiles from the box (whiskers) of all measurements
-%     on days A, B and~C.\label{box-plot}}
-% \end{figure}
+where $\psi$ just means `the state of the qubit'. The coefficients $\alpha$ and $\beta$ are complex numbers that represent the probability amplitudes of the qubit being in the |0⟩ and |1⟩ states, respectively. This expression for the superposition, given that the complex coefficients are continuous values, show us that the qubit has an uncountably infinite amount of states it can be in. 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\columnwidth]{assets/bloch-sphere.png}
+  \caption{The Bloch Sphere representation of a qubit. Any point on the surface of the sphere represents a valid qubit state, with |0⟩ and |1⟩ at the poles. The angles $\theta$ and $\phi$ determine the specific superposition state.}
+  \label{fig:bloch-sphere}
+\end{figure}
+The probabilities of measuring the qubit to be in either state are given by the squares of the magnitudes of these coefficients. In some sense they represent the `weight' of each state in the superposition, the likelihood that measuring the qubit will give that particular state, as in quantum mechanics, the act of measurement causes the qubit to `collapse' into one of the base states (either |0⟩ or |1⟩) with probabilities determined by these coefficients. It is this superposition that enables quantum computers to perform certain computations more efficiently than classical computers as these complex coefficients can interfere constructively or destructively during quantum computations, allowing quantum algorithms to amplify the probabilities of correct answers while suppressing incorrect ones.
 
+The nature of superposition also leads to the concept of \textit{entanglement}, another fundamental property of quantum mechanics. When two qubits become entangled, the state of one qubit becomes directly correlated to the state of the other, regardless of the distance between them. This means that measuring one qubit instantly determines the state of the other qubit. Entanglement is a key resource in many quantum algorithms and protocols, enabling phenomena such as quantum teleportation and superdense coding. It is also a crucial component in achieving quantum advantage, as it allows for correlations that are not possible in classical systems as there is no classical analog to entanglement, it is a purely quantum mechanical phenomenon.
+
+As the coefficients $\alpha$ and $\beta$ are complex numbers, they have both a magnitue and a phase, and it is this phase that allows for interference effects to occur due to relative phase differences between qubit states. Maintining stable relative phases is critical for the proper functioning of quantum algorithms, and is measured by a property called coherence time, which is the time over which a qubit can maintain its quantum state before loss of information to the environment (decoherence) occurs. The global coherence of a multi-qubit system is particularly important, as quantum algorithms often rely on the interference of amplitudes across multiple qubits to achieve their computational advantage. Two important metrics used to quantify the coherence of qubits are $\tau_1$ and $\tau_2$ times. $\tau_1$, or relaxation time, measures how long a qubit can stay in an excited state before it decays to its ground state due to energy loss to the environment. $\tau_2$, or dephasing time, measures how long a qubit can maintain its phase coherence before interactions with the environment cause it to lose its quantum information. Both $\tau_1$ and $\tau_2$ times are critical for the performance of quantum computers, as they determine how long quantum information can be reliably stored and manipulated.
+
+\subsection{. Quantum Gates}
+
+It's all well and good to be able to create qubits and understand their properties, in order to perform computations we need a way to manipulate these qubits and perform quantum gate operations on them. Quantum gates are the quantum analogs of classical logic gates. While classical logic gates could be interpreted as performing operations that flip or combine bits in their restrictied classical space, quantum gates are represented mathematically by matrices operating on the state (vectors) of the qubits, performing flips, rotations, entanglements and other transformations in the much larger quantum state space. This makes more sense when considering the geometric representation of a qubit on the Bloch sphere (see Figure.~\ref{fig:bloch-sphere}), where quantum gates can be visualized as rotations of the qubit state vector on this sphere.
 
 \begin{figure}[h]
   \centering
-    \scalebox{1.5}{
-      \Qcircuit @C=2em @R=1em {
-        & \ctrl{2} & \targ & \gate{U} & \qw \\
-        & \qw & \ctrl{-1} & \qw & \qw \\
-        & \targ & \ctrl{-1} & \ctrl{-2} & \qw \\
-        & \qw & \ctrl{-1} & \qw & \qw
-      }
+  \scalebox{1}{
+    \Qcircuit{
+      \lstick{\ket{q_1}} & \gate{H} & \ctrl{1} & \gate{S} & \qw \\
+      \lstick{\ket{q_2}} & \ctrl{2} & \ctrl{0} & \ctrl{1} & \qw \\
+      \lstick{\ket{q_3}} & \qw & \qw & \gate{Y} & \qw \\
+      \lstick{\ket{q_4}} & \targ & \gate{X} & \qw & \qw \\
+    }
   }
-  \caption{Example of a simple quantum circuit. Each horizontal line represents a qubit, and the symbols show basic operations that can be performed on them.}
+  \caption{Example of a simple 4-qubit quantum circuit. Each horizontal line represents a qubit, and the symbols show basic operations that can be performed on them such as the Hadamard gate (H), controlled-NOT gate (CNOT), phase gate (S), Pauli-X gate (X), and Pauli-Y gate (Y).}
 \end{figure}
+
+In practice, the experimental implementation of quantum gates depends on the physical system used to realise the qubits. For example, in superconducting qubits, microwave pulses are used to manipulate the energy levels of the qubits, while in trapped ion systems, laser pulses are used to control the internal states of the ions. Common single-qubit gates include the Pauli-X, Y, and Z gates (which correspond to bit-flip and phase-flip operations), as well as the Hadamard gate (which creates superposition). Multi-qubit gates, such as the CNOT (Controlled-NOT) gate, are essential for creating entanglement between qubits and enabling more complex quantum operations. Given that gate operations are actual physical operations, they take a finite duration of time. The time taken to perform a gate operation, known as the gate time $\tau_g$, is important in the context of quantum algorithms, as it must be much shorter than the coherence times ($\tau_1$ and $\tau_2$)(see next section).
+
+\subsection{. Decoherence, Errors, and Correction}
+In an actual quantum computer, we are far from the ideal mathematical situation of qubits being perfectly coherent, noise free, and decoupled from the environment. In practice, the quantum states required are incredibly delicate, generally requiring the system to be supercooled to near absolute zero temperatures, and isolated from all external influences. Even still, it is impossible to remove all sources of noise, and as such, the system is subject to decoherence. Decoherence is the proceess by which a quantum system loses its quantum properties due to interactions with its environment. This can occur through various mechanisms, such as thermal fluctuations, electromagnetic interference, or imperfections in the qubit fabrication process. Decoherence leads to the loss of superposition and entanglement, effectively collapsing the qubit states into classical states and destroying the quantum information they carry. This is not a limitation of hardware alone, but a fundamental property of quantum mechanics itself. As stated earlier, the coherence times $\tau_1$ and $\tau_2$ are critical metrics that quantify how long a qubit can maintain its quantum state before decoherence occurs. As we add more qubits to the system, the global coherence of the multi-qubit becomes exponentially more fragile and susceptible to decoherence, making it increasingly challenging to maintain the quantum information across the entire system. Decoherence ultimately results in the occurrence of errors during quantum computations as the global state collapses unpredictably.
+
+Decoherence is not the only source of error in quantum computations. The quantum gate operations themselves are also subject to imperfect operations and thus have some probability of failure. For example, attempting to perform an X gate on a qubit in the |0⟩ state might not always successfully flip it to the |1⟩ state due to imperfections in the control pulses or interactions with the environment during the gate operation. This is known as gate error. Gate fidelity is a measure of how accurately a quantum gate performs the intended operation, and it is typically quantified using metrics such as the average gate fidelity. As a rule of thumb, gate fidelities above 99\% are generally considered good, but for practical quantum computing, even higher fidelities (e.g., 99.9\% or better) are often required\cite{99.9percent-required-fidelity}.
+
+To mitigate the effects of decoherence and gate errors, quantum error correction techniques are employed. Error correction involves encoding the quantum information across multiple physical qubits to create logical qubits that are more robust against errors. This is typically done using quantum error-correcting codes, such as the surface code or the Steane code, which can detect and correct certain types of errors without directly measuring the quantum information itself (which would collapse the state). Implementing error correction requires additional qubits and gate operations, which adds complexity to the quantum computer. The overhead for error correction can be significant, often requiring an order of magnitude more physical qubits to create a single logical qubit. However, this is essential for achieving fault-tolerant quantum computing, where computations can be performed reliably even in the presence of noise and errors.
+
 
 \section{. Practical Challenges in Quantum Computing}
 To achieve a genuine exponential speedup with a quantum algorithm, it is not enough to just put data into superposition — 
@@ -130,16 +215,76 @@ collapse an exponentially large superposition into a sharply distinguishable mea
 replicate without exponential resources. In short, exponential quantum advantage emerges when there is a hidden algebraic or structural feature in the problem that 
 quantum linear algebra can amplify, rather than from brute-force parallelism alone.
 
+\section{. Leading Quantum Hardware Platforms}
 
 
-\section{Potential Applications of Quantum Computing}
+\section{. Potential Applications of Quantum Computing}
 The journal of \emph{Nordic Machine Intelligence} uses primarily the Vancouver
 style of references with numbers in square brackets in the text and a
 numbered list in the Reference section.\cite{biomed-req} However, using the
 Harvard reference style will also be accepted in some cases.
+This document is a template for LATEX. Please use
+the electronic version of this document as a template
+when you produce your manuscript for submission to the
+Nordic Machine Intelligence. The paper size is A4 (21 ×
+29.7 cm).
+The introduction section of your paper should include
+the necessary background information, including an ade-
+quate review of earlier findings and the justification for
+conducting this study.
+3.1. Qubits and their construction
+All figures should be numbered consecutively with the
+figure legend indented 0.5 cm on each side. See figure
+commented fig for an example. Figures may be in color
+or black and white and must be of such quality that they
+produce clear and sharp printouts on an ordinary (color).
+This document is a template for LATEX. Please use
+the electronic version of this document as a template
+when you produce your manuscript for submission to the
+Nordic Machine Intelligence. The paper size is A4 (21 ×
+29.7 cm).
+The introduction section of your paper should include
+the necessary background information, including an ade-
+quate review of earlier findings and the justification for
+conducting this study.
+3.1. Qubits and their construction
+All figures should be numbered consecutively with the
+figure legend indented 0.5 cm on each side. See figure
+commented fig for an example. Figures may be in color
+or black and white and must be of such quality that they
+produce clear and sharp printouts on an ordinary (color)
 
-\section{Future Outlook and Developments}
-
+\section{. Future Outlook and Developments}
+This document is a template for LATEX. Please use
+the electronic version of this document as a template
+when you produce your manuscript for submission to the
+Nordic Machine Intelligence. The paper size is A4 (21 ×
+29.7 cm).
+The introduction section of your paper should include
+the necessary background information, including an ade-
+quate review of earlier findings and the justification for
+conducting this study.
+3.1. Qubits and their construction
+All figures should be numbered consecutively with the
+figure legend indented 0.5 cm on each side. See figure
+commented fig for an example. Figures may be in color
+or black and white and must be of such quality that they
+produce clear and sharp printouts on an ordinary (color).
+This document is a template for LATEX. Please use
+the electronic version of this document as a template
+when you produce your manuscript for submission to the
+Nordic Machine Intelligence. The paper size is A4 (21 ×
+29.7 cm).
+The introduction section of your paper should include
+the necessary background information, including an ade-
+quate review of earlier findings and the justification for
+conducting this study.
+3.1. Qubits and their construction
+All figures should be numbered consecutively with the
+figure legend indented 0.5 cm on each side. See figure
+commented fig for an example. Figures may be in color
+or black and white and must be of such quality that they
+produce clear and sharp printouts on an ordinary (color)
 
 \newpage
 \nocite{*}

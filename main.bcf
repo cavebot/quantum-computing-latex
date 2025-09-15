@@ -2378,8 +2378,34 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">biomed-req</bcf:citekey>
-    <bcf:citekey order="2" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Manin1980</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Feynman1982</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Deutsch1985</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">BBenioff1987</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Yamamoto1998</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Bernstein1993</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Deutsch1992</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Shor1994</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Grover1996</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Monroe1995</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">https://www.nature.com/articles/nature04279</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Monroe1995</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Monroe1995</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Vandersypen2001</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">https://www.nature.com/articles/nature04279</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">DWave2011</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">IBM2016</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Google2017</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Arute2019</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">Honeywell2020</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">IBM2021</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">IonQ2022</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Various2023</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Various2024</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Various2025</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">99.9percent-required-fidelity</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">biomed-req</bcf:citekey>
+    <bcf:citekey order="28" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

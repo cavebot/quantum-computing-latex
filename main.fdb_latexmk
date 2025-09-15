@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1757606419.55884 "main.bcf" "main.bbl" "main" 1757606517.74126 0
-  "bibliography.bib" 1757599692 1541 2b8d8e21873581f198d6f72c9fda98b1 ""
-  "main.bcf" 1757606517.65603 108115 f66ff2acdacaabeb81cc85be99d1b765 "pdflatex"
+["biber main"] 1757947583.23282 "main.bcf" "main.bbl" "main" 1757948339.69034 0
+  "bibliography.bib" 1757932614.35275 1997 f0a8f45de2255ae72fda4b0d67750e96 ""
+  "main.bcf" 1757948339.50923 109917 35dae52c09b3ee23dfe4821214beb631 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1757606514.7186 "/Users/adamprior/Documents/latex/quantum computing/main.tex" "main.pdf" "main" 1757606517.74152 0
-  "/Users/adamprior/Documents/latex/quantum computing/main.tex" 1757606514.54803 4411 d153be979a1e356c444acceef7951c50 ""
+["pdflatex"] 1757948334.70506 "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" "main.pdf" "main" 1757948339.6908 0
+  "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" 1757948331.63396 26186 1e6e4d4678a7af934994eea37683e4c2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -42,7 +42,10 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb" 1215737283 93763 147b5ddee129c9f70f569c1abfc1fa24 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr9.pfb" 1215737283 95070 af2adc4ac3739ded11af0b302a473f18 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbsr17.pfb" 1215737283 95138 5ca33930525eaa75a03e4e9e899fa059 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb" 1136849748 25127 0f921359adc22e3a8c6368d4f349f585 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb" 1136849748 25336 d135e63f9368b9204815755abad3f346 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb" 1136849748 34889 a5ba8b20a45b3437534c87396d980b48 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb" 1136849748 34876 8d4b38ed6a8c31221cdb5873a0ca9f5c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb" 1136849748 41093 104c39afc438ce3e69f72093c24579bd ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/alphalph/alphalph.sty" 1576016177 11516 2c693377218e7ce5418526bc70496cc1 ""
@@ -115,6 +118,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1739306980 46850 d87daedc2abdc653769a6f1067849fe0 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1739048179 31715 19e60610b63819fe670dfa1cd84a4e94 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -152,14 +156,14 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757600498 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1757600485 3345731 f960de686f16e0dece458423ec1db4a5 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "assets/LOGO-UF-SOLO (1).png" 1757599692 524631 e8165d3c3ece06eb56a9ea84f3b1f832 ""
-  "assets/test-ill.png" 1757599692 8253 8de3fd37b9859ab8ad633e461c439d5f ""
-  "elbioimp2.cls" 1757599692 5379 bca66830478d3985b945b90a1fb0b998 ""
-  "main.aux" 1757606517.65386 3285 320e17a032a43e65aa138ca3feef0353 "pdflatex"
-  "main.bbl" 1757606420.78983 11327 dd45b107de3d7194347b581b62020a70 "biber main"
-  "main.out" 1757606517.65515 868 2d9ff5f1b09d0085197587ab0842a543 "pdflatex"
-  "main.run.xml" 1757606517.65665 2438 c7fa435e6e6e85a94d6d1293e3e300a1 "pdflatex"
-  "main.tex" 1757606514.54803 4411 d153be979a1e356c444acceef7951c50 ""
+  "assets/LOGO-UF-SOLO (1).png" 1757665707.95307 524631 e8165d3c3ece06eb56a9ea84f3b1f832 ""
+  "assets/bloch-sphere.png" 1757942377.00662 30676 9a4bcd483280b04cc3b47ff9c00dacf0 ""
+  "elbioimp2.cls" 1757665707.96392 5379 bca66830478d3985b945b90a1fb0b998 ""
+  "main.aux" 1757948339.49144 6633 21c9c0949c6eab7691804b0ca4be28b9 "pdflatex"
+  "main.bbl" 1757947584.7637 13668 5762612772218642cbcd4af7f343fafa "biber main"
+  "main.out" 1757948339.50734 2575 2a5bb30151634e4dc7b6b98357acf04e "pdflatex"
+  "main.run.xml" 1757948339.5105 2438 9a791f1120587f1c395c4c00798d8b00 "pdflatex"
+  "main.tex" 1757948331.63396 26186 1e6e4d4678a7af934994eea37683e4c2 ""
   (generated)
   "main.aux"
   "main.bcf"

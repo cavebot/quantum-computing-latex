@@ -19,12 +19,67 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{Monroe1995}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a3a6463ddaeb090aa8d19af5dee659a}{%
+           family={Meekhof},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0fb5f95c07813d117f54d056b9322b9d}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4539bd748af41832d08db3384e7af341}{%
+           family={Itano},
+           familyi={I\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{fullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{fullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{bibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authorbibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorfullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authorfullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{note}{National Institute of Standards and Technology, Boulder, Colorado}
+      \field{number}{25}
+      \field{title}{Demonstration of a Fundamental Quantum Logic Gate}
+      \field{volume}{75}
+      \field{year}{1995}
+      \field{pages}{4714\bibrangedash 4717}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://tf.nist.gov/general/pdf/140.pdf
+      \endverb
+      \verb{url}
+      \verb https://tf.nist.gov/general/pdf/140.pdf
+      \endverb
+    \endentry
     \entry{biomed-req}{online}{}{}
       \list{organization}{1}{%
         {National Library of Medicine}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{day}{26}
       \field{month}{4}
@@ -68,8 +123,8 @@
       \strng{authornamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorfullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorfullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New England Journal of Medicine}
@@ -126,8 +181,8 @@
       \strng{authornamehash}{67c5d4c29e0cdb938e49f414a4938bb4}
       \strng{authorfullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{authorfullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Brain Research}
@@ -178,8 +233,8 @@
       \strng{authornamehash}{353b1bbf3b847ef19dea4d89ba4674b1}
       \strng{authorfullhash}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{authorfullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -238,8 +293,8 @@
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The genetic basis of human cancer}
@@ -280,8 +335,8 @@
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{title}{The genetic basis of human cancer}
