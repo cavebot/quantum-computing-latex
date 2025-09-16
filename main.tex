@@ -42,8 +42,7 @@ todo: add to historical section that Shor's algorithm is somewhat of a benchmark
 
 \section{. Historical Advancements in Quantum Computing}
 The first mentions of quantum computation can be traced as far back as the early as 1980s.
-In 1980, mathematician Yuri Manin discussed the concept of a quantum computer in his paper
-`Computable and Uncomputable'\cite{Manin1980}. Richard Feynman, in 1982, published a paper
+In 1980, mathematician Yuri Manin discussed the concept of a quantum computer in his book \textit{Computable and Non-Computable}\cite{Manin1980}. Richard Feynman, in 1982, published a paper
 `Simulating physics with computers' introducing the idea of simulating
 quantum systems using quantum computers\cite{Feynman1982}, highlighting the limitations
 of classical computers at simulating the exponentially growing state space of quantum
@@ -55,22 +54,18 @@ In 1985, David Deutsch further developed the quantum computing theory by rigorou
 Universal Quantum Turing Machine (the quantum analog of a classical Turing machine) capable of
 performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}. 
 Further theoretical advancements continued with contributions from, reversible quantum computation by Paul Benioff between
-1985-1987\cite{BBenioff1987}, the first proposal of a physically realizable quantum computer 
-using atoms and photons in 1998\cite{Yamamoto1998}, and attempts to define quantum complexity 
-classes in 1989\cite{Bernstein1993} which would eventually lead to the definition of 
-Bounded-Error Quantum Polynomial Time (BQP) problems, an important class of problems in complexity
-theory that can be efficiently solved by quantum computers in polynomial time.
+1985-1987\cite{BBenioff1987}, the first proposal of a physically realizable quantum computer using atoms and photons in 1998\cite{Yamamoto1998}, and attempts to define quantum complexity classes in 1989\cite{Bernstein1993} which would eventually lead to the definition of Bounded-Error Quantum Polynomial Time (BQP) problems, an important class of problems in complexity theory that can be efficiently solved by quantum computers in polynomial time.
 
-It was not until 1992 that the first quantum algorithm was proposed by Deutsch and Jozsa\cite{Deutsch1992},
+It was not until 1992 that the first quantum algorithm was proposed by Deutsch and Jozsa\cite{Deutsch1992RapidSO},
 demonstrating that quantum computers could solve certain problems more efficiently than classical computers 
 (quantum advantage). While this algorithm has very limited practical applications, it paved the way for more 
 impactful algorithms.
-The most famous of these is Shor's algorithm, proposed by Peter Shor in 1994\cite{Shor1994}. Shor's algorithm 
+The most famous of these is Shor's algorithm, proposed by Peter Shor in 1994\cite{365700}. Shor's algorithm 
 is an efficient quantum algorithm for integer factorization in polynomial time, versus the best-known classical
 algorithms which run in sub-exponential time. This algoirithm in some sense `proved' the potential of quantum computing
 to solve practical problems that are intractable for classical computers, particularly in the context of cryptography, as
 many encryption schemes rely on the difficulty of factoring large integers. 
-Another significant algorithm is Grover's algorithm, proposed by Lov Grover two years later\cite{Grover1996}, providing
+Another significant algorithm is Grover's algorithm, proposed by Lov Grover two years later\cite{grover1996fastquantummechanicalalgorithm}, providing
 quadratic speedup for unstructured search problems.
 
 While these algorithms demonstrate the theoretical potential of quantum computers, they would be useless without
@@ -79,12 +74,12 @@ experimental researchers were developing the first real qubits and quantum gates
 of a quantum logic gate was realised in 1995 by a team using an electromagnetic trap to confine ions in place to form a two-qubit
 system. The energy levels of the ions are used to represent the qubit states (|0⟩ and |1⟩), while laser pulses are used 
 to manipulate these states. The team successfully implemented a controlled-NOT (CNOT) gate, which is a fundamental quantum gate
-universal quantum gate used in many quantum algorithms\cite{Monroe1995}. 
+universal quantum gate used in many quantum algorithms\cite{PhysRevLett.75.4714}. 
 One might define this point in time as the take-off point in the history of quantum computing as it was demonstrated, roughly in parallel,
 to be both theoretically computationally advantageous (for certain classes of problems) and experimentally realisable and a large acceleration
 in research and development followed. Over the next decade experiments would demonstrate  more complex gates, and increased amount of qubits 
-(8 qubit registers by December 2005)\cite{https://www.nature.com/articles/nature04279}, and even new quantum systems that can implement qubits 
-such as superconducting states, nuclear spins, quantum dots and even photon polarization\cite{Monroe1995}. Theoretical advancements also continued, with the 
+(8 qubit registers by December 2005)\cite{8bitregister}, and even new quantum systems that can implement qubits 
+such as superconducting states, nuclear spins, quantum dots and even photon polarization. Theoretical advancements also continued, with the 
 development of quantum error correction codes and various proofs of principle for quantum algorithms that further highlighted feasability and
 limitations.
 
@@ -252,41 +247,42 @@ Each qubit in a quantum processor requires precise calibration of its operating 
 
 The physical requirements for operating quantum hardware are extreme. Superconducting qubits, for example, require dilution refrigerators operating at temperatures near 10 mK, which are difficult to scale to support millions of control lines. Trapped ion and neutral atom systems depend on stable laser and vacuum setups, which are challenging to miniaturize and integrate. Fabrication of quantum devices also presents major hurdles: achieving uniform, and reproducible high fidelity qubits is an open challenge, with device variability causing significant error rates.
 
-Together, these challenges necessitatethe need for advances not only in quantum theory and algorithms, but also in engineering, materials science, and systems integration to realize large-scale, fault-tolerant quantum computers.
+Together, these challenges necessitate the need for advances not only in quantum theory and algorithms, but also in engineering, materials science, and systems integration to realize quantum computation at scale.
+
 
 \section{. Leading Quantum Hardware Platforms}
+\subsection{. Superconducting Qubits}
+Superconducting qubits are among the most widely used platforms for quantum computing, leveraging Josephson junctions to create two-level quantum systems. These qubits are fabricated using standard microfabrication techniques and operate at millikelvin temperatures using dilution refrigerators. Superconducting qubits offer fast gate speeds and are highly scalable, with leading implementations from IBM, Google, and Rigetti. Google have claimed quantum supremacy with their Sycamore processor with a count of 53 physical qubits in 2019 \cite{} though this claim has sparked debate due to the benchmarking used. Similarly the more modern 105 qubit google quantum processor, Sycamore, has been developed, with claims of `below-threshold' error corrections, though demonstrations are limited to specific cases\cite{google2025}.
 
-\section{. Future Outlook and Developments}
-This document is a template for LATEX. Please use
-the electronic version of this document as a template
-when you produce your manuscript for submission to the
-Nordic Machine Intelligence. The paper size is A4 (21 ×
-29.7 cm).
-The introduction section of your paper should include
-the necessary background information, including an ade-
-quate review of earlier findings and the justification for
-conducting this study.
-3.1. Qubits and their construction
-All figures should be numbered consecutively with the
-figure legend indented 0.5 cm on each side. See figure
-commented fig for an example. Figures may be in color
-or black and white and must be of such quality that they
-produce clear and sharp printouts on an ordinary (color).
-This document is a template for LATEX. Please use
-the electronic version of this document as a template
-when you produce your manuscript for submission to the
-Nordic Machine Intelligence. The paper size is A4 (21 ×
-29.7 cm).
-The introduction section of your paper should include
-the necessary background information, including an ade-
-quate review of earlier findings and the justification for
-conducting this study.
-3.1. Qubits and their construction
-All figures should be numbered consecutively with the
-figure legend indented 0.5 cm on each side. See figure
-commented fig for an example. Figures may be in color
-or black and white and must be of such quality that they
-produce clear and sharp printouts on an ordinary (color)
+\subsection{. Trapped Ions}
+Trapped ion quantum computers use electromagnetic fields to confine ions in vacuum chambers, with qubit states encoded in the internal energy levels of the ions. Laser pulses are used to manipulate and entangle the ions, achieving high-fidelity gate operations and long coherence times. Companies like IonQ and Honeywell have demonstrated significant advances in scaling trapped ion systems. The main challenges are slow gate speeds and difficulties in miniaturizing the control hardware. Quantinuum have recently anounced a 53 qubit trapped ion system in 2025\cite{Quantinuum2024} with 99.9\% fidelity in both one and two-qubit gates across all qubit pairs with all-to-all connectivity across qubits. IONQ have a similar 36 qubit system with high fidelities \cite{} 
+
+\subsection{. Photonic Qubits}
+Photonic quantum computers encode qubits in the polarization, path, or number states of photons. These systems operate at room temperature and are naturally immune to many sources of decoherence. Photonic platforms are well-suited for quantum communication and networking, with companies like Xanadu and PsiQuantum leading development. Challenges include efficient photon generation, detection, and scalable entanglement.
+
+\subsection{. Quantum Dots}
+Quantum dot qubits use the spin or charge states of electrons confined in semiconductor nanostructures. These platforms benefit from compatibility with existing semiconductor manufacturing and offer potential for high-density integration. Notable advances have been made in silicon and germanium quantum dots, but challenges remain in achieving uniformity and long coherence times across large arrays.
+
+\subsection{Neutral Atoms}
+Neutral atom quantum computers trap individual atoms using optical tweezers, encoding qubits in atomic energy levels. These systems offer flexible connectivity and long coherence times, with companies like QuEra and ColdQuanta making progress in scaling up atom arrays. Challenges include precise control of atom positions and maintaining stability over large systems.
+
+\subsection{Quantum Annealers}
+Quantum annealing devices, such as those developed by D-Wave, use large arrays of qubits to solve optimization problems by evolving the system toward a ground state. While not universal quantum computers, quantum annealers have demonstrated practical applications in optimization and machine learning. Limitations include restricted problem types and lack of universal gate operations.
+
+Quantum computing hardware has rapidly evolved over the past decades, with several distinct physical platforms emerging as leaders in the race to build scalable, high fidelity quantum processors. Each platform leverages unique quantum phenomena and engineering approaches, offering different advantages and facing specific challenges. The most prominent quantum hardware platforms include:
+\begin{itemize}
+  \item Superconducting Qubits
+  \item Trapped Ions
+  \item Photonic Qubits
+  \item Quantum Dots
+  \item Neutral Atoms
+  \item Quantum Annealers
+\end{itemize}
+
+
+
+\section{. Future Outlook}
+
 
 \newpage
 \nocite{*}

@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1758033552.01801 "main.bcf" "main.bbl" "main" 1758033884.52845 0
-  "bibliography.bib" 1758033551.77556 5712 25a0422354e1030b6ee10106484f8334 ""
-  "main.bcf" 1758033884.32478 110764 b974ebedffa9be5a0d91a06ac5705f54 "pdflatex"
+["biber main"] 1758038115.75855 "main.bcf" "main.bbl" "main" 1758038129.82287 0
+  "bibliography.bib" 1758038106.12696 8878 a4a03828c1f1285264c53f4525fe806e ""
+  "main.bcf" 1758038129.51708 110711 d1ef671d4bbfc519a42c470b3be4f91a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1758033879.47052 "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" "main.pdf" "main" 1758033884.5288 0
-  "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" 1758033873.98478 37140 83867c2fbd834674211226ff278d3813 ""
+["pdflatex"] 1758038124.39938 "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" "main.pdf" "main" 1758038129.82325 0
+  "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" 1758038106.24773 38330 7849b3ff8f4e2917184d6ffab98ef0f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -162,11 +162,11 @@
   "assets/LOGO-UF-SOLO (1).png" 1757665707.95307 524631 e8165d3c3ece06eb56a9ea84f3b1f832 ""
   "assets/bloch-sphere.png" 1757942377.00662 30676 9a4bcd483280b04cc3b47ff9c00dacf0 ""
   "elbioimp2.cls" 1757665707.96392 5379 bca66830478d3985b945b90a1fb0b998 ""
-  "main.aux" 1758033884.31922 8718 1a389b48b47e50737781d4c0b04293d6 "pdflatex"
-  "main.bbl" 1758033553.66612 35631 e40bf5acdfacf4b95d35b4a93027f5ee "biber main"
-  "main.out" 1758033884.32331 4143 4585cf0b7ad1325220a51edeb63c6083 "pdflatex"
-  "main.run.xml" 1758033884.32584 2438 9a791f1120587f1c395c4c00798d8b00 "pdflatex"
-  "main.tex" 1758033873.98478 37140 83867c2fbd834674211226ff278d3813 ""
+  "main.aux" 1758038129.51193 9885 59274600c6dd47491d0665156f2a9bf5 "pdflatex"
+  "main.bbl" 1758038117.7003 52040 a54721c9707aea3ab074a763adc9b9cd "biber main"
+  "main.out" 1758038129.5159 4641 5517ad0dadff77777578ccb40d470d53 "pdflatex"
+  "main.run.xml" 1758038129.51782 2438 9a791f1120587f1c395c4c00798d8b00 "pdflatex"
+  "main.tex" 1758038106.24773 38330 7849b3ff8f4e2917184d6ffab98ef0f0 ""
   (generated)
   "main.aux"
   "main.bcf"

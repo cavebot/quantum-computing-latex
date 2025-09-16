@@ -2358,4 +2358,83 @@
       </bcf:constraint>
     </bcf:constraints>
     <bcf:constraints>
- 
+      <bcf:constraint type="data" datatype="isbn">
+        <bcf:field>isbn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="issn">
+        <bcf:field>issn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="ismn">
+        <bcf:field>ismn</bcf:field>
+      </bcf:constraint>
+      <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
+        <bcf:field>gender</bcf:field>
+      </bcf:constraint>
+    </bcf:constraints>
+  </bcf:datamodel>
+  <!-- CITATION DATA -->
+  <!-- SECTION 0 -->
+  <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">Manin1980</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Feynman1982</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Deutsch1985</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">BBenioff1987</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Yamamoto1998</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Bernstein1993</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Deutsch1992RapidSO</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">365700</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">grover1996fastquantummechanicalalgorithm</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">PhysRevLett.75.4714</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">8bitregister</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Monroe1995</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Vandersypen2001</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">https://www.nature.com/articles/nature04279</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">DWave2011</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">IBM2016</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Google2017</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">Arute2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Honeywell2020</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">IBM2021</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">IonQ2022</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">Various2023</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Various2024</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">Various2025</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">99.9percent-required-fidelity</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">99.9percent-required-fidelity</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Srinivas_2021</bcf:citekey>
+    <bcf:citekey order="27" intorder="2">gemanium999</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">PRXQuantum.5.040342</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">GoogleQAI2023</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">FTQM2024</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">paetznick2024demonstrationlogicalqubitsrepeated</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">beauregard2003circuitshorsalgorithmusing</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Gidney_2021</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">10.1007/978-3-032-01878-6_13</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">NatureQC2023</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">google2025</bcf:citekey>
+    <bcf:citekey order="37" intorder="1" nocite="1">*</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="none">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2">
+      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="none/global//global/global/global"
+                type="entry"
+                sortingtemplatename="none"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>
