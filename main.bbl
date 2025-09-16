@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Monroe1995}{article}{}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Monroe1995}{article}{}{}
       \name{author}{5}{}{%
         {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
            family={Monroe},
@@ -49,10 +49,12 @@
       }
       \strng{namehash}{17de335944f22fa365445a8b67db6e84}
       \strng{fullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{fullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{bibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{authorbibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
       \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
       \strng{authorfullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authorfullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -72,12 +74,155 @@
       \verb https://tf.nist.gov/general/pdf/140.pdf
       \endverb
     \endentry
-    \entry{biomed-req}{online}{}
+    \entry{10.1007/978-3-032-01878-6_13}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=c960c8e02bc1183865a1d801c84a9e43}{%
+           family={Chevignard},
+           familyi={C\bibinitperiod},
+           given={Clémence},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52b1d5cf71b1a5f3f05e8f3cbf2770c4}{%
+           family={Fouque},
+           familyi={F\bibinitperiod},
+           given={Pierre-Alain},
+           giveni={P\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=516f918902973c184003f6a6a3ef0871}{%
+           family={Schrottenloher},
+           familyi={S\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=1a91d7f205b70671cfbdd60ea19708bc}{%
+           family={Tauman\bibnamedelima Kalai},
+           familyi={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Yael},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=45fced9a5645550100c205eb95c3c94f}{%
+           family={Kamara},
+           familyi={K\bibinitperiod},
+           given={Seny\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature Switzerland}%
+      }
+      \strng{namehash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{fullhash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{fullhashraw}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{bibnamehash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{authorbibnamehash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{authornamehash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{authorfullhash}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{authorfullhashraw}{8ce288458d5f714288e824b5c64c8ae5}
+      \strng{editorbibnamehash}{ff619abc452edd95f6f7eeac6084ab7d}
+      \strng{editornamehash}{ff619abc452edd95f6f7eeac6084ab7d}
+      \strng{editorfullhash}{ff619abc452edd95f6f7eeac6084ab7d}
+      \strng{editorfullhashraw}{ff619abc452edd95f6f7eeac6084ab7d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper focuses on the optimization of the number of logical qubits in quantum algorithms for factoring and computing discrete logarithms in {\$}{\$}{\backslash}mathbb {\{}Z{\}}{\_}N^*{\$}{\$}ZN∗. These algorithms contain an exponentiation circuit modulo N, which is responsible for most of their cost, both in qubits and operations.}
+      \field{booktitle}{Advances in Cryptology -- CRYPTO 2025}
+      \field{isbn}{978-3-032-01878-6}
+      \field{title}{Reducing the Number of Qubits in Quantum Factoring}
+      \field{year}{2025}
+      \field{pages}{384\bibrangedash 415}
+      \range{pages}{32}
+    \endentry
+    \entry{NatureQC2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=e05756ae4f4a32149aa38db0c65d4e1e}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=f00e6a60778a3c7fc61a4d5e1d354d7d}{%
+           family={Lanting},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=5c23a7c9eba5986cda02671e379dd55e}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8a59c6406bf8717c008d0245b0006cf0}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=53fb31516d6e71d9fccc532b2f985a0b}{%
+           family={Andriyash},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
+           family={Isakov},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=a53f598e643a34ea6f3ab45e29886e00}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=883d1c8f1b130bde471d8526a88ebfae}{%
+           family={Bunyk},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi I.},
+           giveni={P\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=1a244c1cfcef5fea89af4e3643c16f21}{%
+           family={Rich},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60360dd5b120571e4f7236feb481b1ce}{%
+           family={Thom},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c5c261cdbaa1aab86651541c2e0893b}
+      \strng{fullhash}{4710db9fed8385be16d39ea2825cca95}
+      \strng{fullhashraw}{4710db9fed8385be16d39ea2825cca95}
+      \strng{bibnamehash}{4710db9fed8385be16d39ea2825cca95}
+      \strng{authorbibnamehash}{4710db9fed8385be16d39ea2825cca95}
+      \strng{authornamehash}{8c5c261cdbaa1aab86651541c2e0893b}
+      \strng{authorfullhash}{4710db9fed8385be16d39ea2825cca95}
+      \strng{authorfullhashraw}{4710db9fed8385be16d39ea2825cca95}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Quantum critical dynamics in a 5,000-qubit programmable spin glass}
+      \field{volume}{618}
+      \field{year}{2023}
+      \field{pages}{500\bibrangedash 505}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-023-05867-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41586-023-05867-2
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41586-023-05867-2
+      \endverb
+    \endentry
+    \entry{biomed-req}{online}{}{}
       \list{organization}{1}{%
         {National Library of Medicine}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{day}{26}
       \field{month}{4}
@@ -95,7 +240,7 @@
       \verb http://www.nlm.nih.gov/bsd/uniform_requirements.html
       \endverb
     \endentry
-    \entry{Halpern-2002}{article}{}
+    \entry{Halpern-2002}{article}{}{}
       \name{author}{3}{}{%
         {{hash=8a82e6be0edbabae17df560df07d9a5f}{%
            family={Halpern},
@@ -115,12 +260,14 @@
       }
       \strng{namehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{fullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \strng{fullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{bibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorbibnamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authornamehash}{9b820d3d2641dcb16e61287af7cbe9ad}
       \strng{authorfullhash}{9b820d3d2641dcb16e61287af7cbe9ad}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{authorfullhashraw}{9b820d3d2641dcb16e61287af7cbe9ad}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{New England Journal of Medicine}
@@ -134,7 +281,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Rose-2002}{article}{}
+    \entry{Rose-2002}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
       \name{author}{6}{}{%
@@ -171,12 +318,14 @@
       }
       \strng{namehash}{67c5d4c29e0cdb938e49f414a4938bb4}
       \strng{fullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \strng{fullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{bibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{authorbibnamehash}{79c37ddf6b24e8e91dbe10f200d13f71}
       \strng{authornamehash}{67c5d4c29e0cdb938e49f414a4938bb4}
       \strng{authorfullhash}{79c37ddf6b24e8e91dbe10f200d13f71}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{authorfullhashraw}{79c37ddf6b24e8e91dbe10f200d13f71}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Brain Research}
@@ -190,7 +339,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Murray-2002}{book}{}
+    \entry{Murray-2002}{book}{}{}
       \name{author}{4}{}{%
         {{hash=83b9ca420c247ded34433fa66d644b24}{%
            family={Murray},
@@ -221,12 +370,14 @@
       }
       \strng{namehash}{353b1bbf3b847ef19dea4d89ba4674b1}
       \strng{fullhash}{ea61e236a416491f47415b7a7f1d03ef}
+      \strng{fullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{bibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{authorbibnamehash}{ea61e236a416491f47415b7a7f1d03ef}
       \strng{authornamehash}{353b1bbf3b847ef19dea4d89ba4674b1}
       \strng{authorfullhash}{ea61e236a416491f47415b7a7f1d03ef}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{authorfullhashraw}{ea61e236a416491f47415b7a7f1d03ef}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{4}
@@ -237,7 +388,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Meltzer+AK+JMT}{inbook}{}
+    \entry{Meltzer+AK+JMT}{inbook}{}{}
       \name{author}{3}{}{%
         {{hash=73e1b309fed4401dd1ff095991043a6c}{%
            family={Meltzer},
@@ -275,15 +426,18 @@
       }
       \strng{namehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{fullhash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{fullhashraw}{e0b856fe72069e5af21161f59d3571f6}
       \strng{bibnamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authorbibnamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authornamehash}{e0b856fe72069e5af21161f59d3571f6}
       \strng{authorfullhash}{e0b856fe72069e5af21161f59d3571f6}
+      \strng{authorfullhashraw}{e0b856fe72069e5af21161f59d3571f6}
       \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{The genetic basis of human cancer}
@@ -297,7 +451,7 @@
       \verb 10.1000/182
       \endverb
     \endentry
-    \entry{Vogelstein-2002}{book}{}
+    \entry{Vogelstein-2002}{book}{}{}
       \name{editor}{2}{}{%
         {{hash=5639a7f4aa37475fc876277905382bdf}{%
            family={Vogelstein},
@@ -318,12 +472,14 @@
       }
       \strng{namehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{fullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \strng{fullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{bibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorbibnamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editornamehash}{ad4d800edd9ad95f1302b5771ae34e5e}
       \strng{editorfullhash}{ad4d800edd9ad95f1302b5771ae34e5e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{editorfullhashraw}{ad4d800edd9ad95f1302b5771ae34e5e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{title}{The genetic basis of human cancer}
