@@ -2405,14 +2405,14 @@
     <bcf:citekey order="25" intorder="1">Various2025</bcf:citekey>
     <bcf:citekey order="26" intorder="1">99.9percent-required-fidelity</bcf:citekey>
     <bcf:citekey order="27" intorder="1">99.9percent-required-fidelity</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">IonQ2022</bcf:citekey>
-    <bcf:citekey order="28" intorder="2">https://www.nature.com/articles/s41467-025-63241-4</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.040342</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">https://pmc.ncbi.nlm.nih.gov/articles/PMC9946823/</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">https://www.nature.com/articles/s41586-024-07107-7</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">https://www.microsoft.com/en-us/research/blog/microsoft-and-quintinium-collaborate-to-demonstrate-quantum-error-correction-on-a-32-qubit-topological-quantum-computer/</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">https://arxiv.org/abs/quant-ph/0205095</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">https://arxiv.org/abs/1905.09749</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Srinivas_2021</bcf:citekey>
+    <bcf:citekey order="28" intorder="2">gemanium999</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">PRXQuantum.5.040342</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">GoogleQAI2023</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">FTQM2024</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">paetznick2024demonstrationlogicalqubitsrepeated</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">beauregard2003circuitshorsalgorithmusing</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Gidney_2021</bcf:citekey>
     <bcf:citekey order="35" intorder="1">10.1007/978-3-032-01878-6_13</bcf:citekey>
     <bcf:citekey order="36" intorder="1">NatureQC2023</bcf:citekey>
     <bcf:citekey order="37" intorder="1">biomed-req</bcf:citekey>

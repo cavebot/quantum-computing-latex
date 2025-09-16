@@ -307,6 +307,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrmi9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrmi8.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsy9.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/cmbrsy8.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cmbright/ebtl10.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -325,3 +329,4 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr9.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbsr17.pfb
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  16 SEP 2025 14:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  16 SEP 2025 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,97 +963,16 @@ LaTeX Warning: Citation '99.9percent-required-fidelity' on page 4 undefined on i
 LaTeX Warning: Citation '99.9percent-required-fidelity' on page 5 undefined on input line 216.
 
 
-LaTeX Warning: Citation 'IonQ2022' on page 5 undefined on input line 216.
-
-
-LaTeX Warning: Citation 'https://www.nature.com/articles/s41467-025-63241-4' on page 5 undefined on input line 216.
-
-
-LaTeX Warning: Citation 'https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.040342' on page 5 undefined on input line 216.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 above 99.9%)[[]] is es-
- []
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 sen-tial for prac-ti-cal quan-tum com-put-ing, but this
- []
-
-
-Overfull \hbox (13.69165pt too wide) in paragraph at lines 216--217
-[]\T1/cmbr/m/n/10 ],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 and ma-jor ad-vance-ments in 2025 in su-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 per-con-duct-ing qubits have also pushed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 sin-gle gate fi-deli-ties re-li-ably be-yond
- []
-
-
-Overfull \hbox (171.4363pt too wide) in paragraph at lines 216--217
-\T1/cmbr/m/n/10 99.997%[[]]. 
- []
-
-
-LaTeX Warning: Citation 'https://pmc.ncbi.nlm.nih.gov/articles/PMC9946823/' on page 5 undefined on input line 231.
-
-
 LaTeX Warning: Command \o invalid in math mode on input line 231.
 
 Missing character: There is no ø in font cmbr10!
 
-LaTeX Warning: Citation 'https://www.nature.com/articles/s41586-024-07107-7' on page 5 undefined on input line 231.
-
-
-Overfull \hbox (40.2496pt too wide) in paragraph at lines 231--232
-\T1/cmbr/m/n/10 counts[[]].
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-\T1/cmbr/m/n/10 one-million er-ror cor-rec-tion cy-cles, demon-strat-ing
- []
-
-
-Overfull \hbox (33.38593pt too wide) in paragraph at lines 231--232
-\T1/cmbr/m/n/10 ratio[[]]
- []
-
-
-
-
-LaTeX Warning: Citation 'https://www.microsoft.com/en-us/research/blog/microsoft-and-quintinium-collaborate-to-demonstrate-quantum-error-correction-on-a-32-qubit-topological-quantum-computer/' on page 5 undefined on input line 233.
-
-
-Overfull \hbox (594.43832pt too wide) in paragraph at lines 233--234
-\T1/cmbr/m/n/10 small[[]].
- []
-
-
-LaTeX Warning: Citation 'https://arxiv.org/abs/quant-ph/0205095' on page 5 undefined on input line 238.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-\T1/cmbr/m/n/10 as $\OML/cmbrm/m/it/10 O\OT1/cmbr/m/n/10 (\OML/cmbrm/m/it/10 n[]\OT1/cmbr/m/n/10 )$\T1/cmbr/m/n/10 [[]].
- []
 
 
 
 [5]
 
-LaTeX Warning: Citation 'https://arxiv.org/abs/1905.09749' on page 6 undefined on input line 240.
+LaTeX Warning: Citation 'biomed-req' on page 6 undefined on input line 268.
 
 
 
@@ -1065,11 +984,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 335.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 335.
+LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 335.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
+File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
+)
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 335.
 
 
-[7] [8
+[7]
+
+
+
+[8
+
+] [9
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1081,7 +1010,7 @@ Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting VeryLas
 Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPages on input line 336.
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 (./main.aux)
  ***********
@@ -1104,18 +1033,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22202 strings out of 473190
- 381090 string characters out of 5715800
- 1306269 words of memory out of 5000000
- 45119 multiletter control sequences out of 15000+600000
- 572322 words of font info for 67 fonts, out of 8000000 for 9000
+ 22224 strings out of 473190
+ 381922 string characters out of 5715800
+ 1305751 words of memory out of 5000000
+ 45134 multiletter control sequences out of 15000+600000
+ 572636 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,26n,93p,2060b,1789s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbsr17.pfb>
-Output written on main.pdf (8 pages, 648037 bytes).
+ 90i,26n,93p,1945b,1789s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbsr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
+Output written on main.pdf (9 pages, 667657 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
