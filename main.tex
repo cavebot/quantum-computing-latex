@@ -242,61 +242,19 @@ Further research has investigated trading space for time, and vice versa, i.e us
 Considering the largest quantum computers to date, attention is generally brought to D-Wave's advantage system which boasts 5000+ qubits\cite{NatureQC2023}. However this does not actually operate as a universal quantum computer, specifically designed for optimization problems using quantum annealing. Despite this limitation, it highlights the vast discrepancy between current qubit counts and the requirements of millions for practical applications like breaking RSA encryption.
 
 
-4. Qubit Connectivity and Architecture
-Physical layout: Current technologies (superconducting circuits, trapped ions, neutral atoms, spin qubits) impose specific geometrical constraints on connectivity.
-Scaling bottlenecks: Long-range entanglement and modular interconnects are in development, but practical quantum networks are immature.
-Cross-talk: Increasing qubit density introduces electromagnetic or motional interference that couples errors across the system.
+\subsection{. Qubit Connectivity, Control, and Engineering Challenges}
 
-5. Control and Calibration
-Complexity explosion: Each qubit requires individual calibration of frequencies, pulse shapes, and error mitigation parameters.
-Classical overhead: Classical control electronics (microwave sources, lasers, cryogenics) scale poorly in energy and complexity.
-Stability: Drift in hardware requires frequent recalibration, reducing uptime and computational efficiency.
+As quantum computers scale up, several engineering challenges emerge that impact their and scalability.
 
+The physical layout of qubits is dictated by the underlying technology. Whether it's superconducting circuits, trapped ions, neutral atoms, or spin qubits each impose specific geometrical constraints on how qubits can interact. Most current platforms support only nearest neighbor connectivity, limiting the ability to perform entangling operations between distant qubits. While research into long range entanglement and modular interconnects is ongoing, practical quantum networks remain immature. As qubit density increases, cross talk becomes a significant issue, where imperfect isolation, physical proximity, and electromagnetic interference, amogst other effects can couple interactions across the system, degrading overall fidelity and thus increasing the likelihood of errors occuring.
 
+Each qubit in a quantum processor requires precise calibration of its operating parameters, including laser frequencies, pulse shapes, and error mitigation settings. This complexity grows rapidly with the number of qubits, leading to a “complexity explosion” in control systems. The control systems required such as laser sources, and cryogenic infrastructure scale poorly in terms of energy consumption and system complexity. Additionally, hardware drift and environmental fluctuations necessitate frequent recalibration, reducing system uptime and computational efficiency.
 
-7. Engineering and Systems Integration
-Cryogenics: Superconducting qubits require dilution refrigerators at ~10 mK, which struggle to scale to millions of control lines.
-Laser and vacuum systems: Trapped ions and neutral atoms require stable optical setups that are difficult to miniaturize.
-Fabrication: Achieving uniform, scalable, and reproducible qubits remains an open challenge, with variability causing large yield losses.
+The physical requirements for operating quantum hardware are extreme. Superconducting qubits, for example, require dilution refrigerators operating at temperatures near 10 mK, which are difficult to scale to support millions of control lines. Trapped ion and neutral atom systems depend on stable laser and vacuum setups, which are challenging to miniaturize and integrate. Fabrication of quantum devices also presents major hurdles: achieving uniform, and reproducible high fidelity qubits is an open challenge, with device variability causing significant error rates.
+
+Together, these challenges necessitatethe need for advances not only in quantum theory and algorithms, but also in engineering, materials science, and systems integration to realize large-scale, fault-tolerant quantum computers.
 
 \section{. Leading Quantum Hardware Platforms}
-
-
-\section{. Potential Applications of Quantum Computing}
-The journal of \emph{Nordic Machine Intelligence} uses primarily the Vancouver
-style of references with numbers in square brackets in the text and a
-numbered list in the Reference section.\cite{biomed-req} However, using the
-Harvard reference style will also be accepted in some cases.
-This document is a template for LATEX. Please use
-the electronic version of this document as a template
-when you produce your manuscript for submission to the
-Nordic Machine Intelligence. The paper size is A4 (21 ×
-29.7 cm).
-The introduction section of your paper should include
-the necessary background information, including an ade-
-quate review of earlier findings and the justification for
-conducting this study.
-3.1. Qubits and their construction
-All figures should be numbered consecutively with the
-figure legend indented 0.5 cm on each side. See figure
-commented fig for an example. Figures may be in color
-or black and white and must be of such quality that they
-produce clear and sharp printouts on an ordinary (color).
-This document is a template for LATEX. Please use
-the electronic version of this document as a template
-when you produce your manuscript for submission to the
-Nordic Machine Intelligence. The paper size is A4 (21 ×
-29.7 cm).
-The introduction section of your paper should include
-the necessary background information, including an ade-
-quate review of earlier findings and the justification for
-conducting this study.
-3.1. Qubits and their construction
-All figures should be numbered consecutively with the
-figure legend indented 0.5 cm on each side. See figure
-commented fig for an example. Figures may be in color
-or black and white and must be of such quality that they
-produce clear and sharp printouts on an ordinary (color)
 
 \section{. Future Outlook and Developments}
 This document is a template for LATEX. Please use
