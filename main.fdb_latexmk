@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1758114546.20608 "main.bcf" "main.bbl" "main" 1758123633.88981 0
+["biber main"] 1758114546.20608 "main.bcf" "main.bbl" "main" 1758124004.97463 0
   "bibliography.bib" 1758114545.99635 12061 365175b428d01ad434069ff93eee8565 ""
-  "main.bcf" 1758123633.45579 110216 c30fc681c4066f6ac582c11ae269d301 "pdflatex"
+  "main.bcf" 1758124004.86971 110216 c30fc681c4066f6ac582c11ae269d301 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1758123626.96268 "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" "main.pdf" "main" 1758123633.89029 0
-  "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" 1758123626.70866 46577 cbf6b3d4ebcae4d0fb1e717bab78eff5 ""
+["pdflatex"] 1758124001.54692 "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" "main.pdf" "main" 1758124004.97493 0
+  "/Users/adamprior/Documents/latex projects/quantum-computing-latex/main.tex" 1758124001.32109 46603 d044c9aabe5e31b0243beb5f9832b33e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -161,12 +161,12 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "assets/LOGO-UF-SOLO (1).png" 1757665707.95307 524631 e8165d3c3ece06eb56a9ea84f3b1f832 ""
   "assets/bloch-sphere.png" 1757942377.00662 30676 9a4bcd483280b04cc3b47ff9c00dacf0 ""
-  "elbioimp2.cls" 1757665707.96392 5379 bca66830478d3985b945b90a1fb0b998 ""
-  "main.aux" 1758123633.4421 11284 11a3e4ec18e5baa16b2bcb4dfdbe102d "pdflatex"
+  "elbioimp2.cls" 1758123913.83179 5398 6d04abe054b955f34cb24195f7957d43 ""
+  "main.aux" 1758124004.86594 11284 11a3e4ec18e5baa16b2bcb4dfdbe102d "pdflatex"
   "main.bbl" 1758114547.94046 62553 034c4cfc9d1bb7fbba9a246f1dab623e "biber main"
-  "main.out" 1758123633.45148 6232 05c465afb4de3b2ced8bc6e9cab3dd2c "pdflatex"
-  "main.run.xml" 1758123633.45856 2438 c7fa435e6e6e85a94d6d1293e3e300a1 "pdflatex"
-  "main.tex" 1758123626.70866 46577 cbf6b3d4ebcae4d0fb1e717bab78eff5 ""
+  "main.out" 1758124004.86872 6232 05c465afb4de3b2ced8bc6e9cab3dd2c "pdflatex"
+  "main.run.xml" 1758124004.8707 2438 c7fa435e6e6e85a94d6d1293e3e300a1 "pdflatex"
+  "main.tex" 1758124001.32109 46603 d044c9aabe5e31b0243beb5f9832b33e ""
   (generated)
   "main.aux"
   "main.bcf"

@@ -62,8 +62,12 @@
 \RequirePackage{textcomp}
 \setlength{\headheight}{12.5pt}
 \fancyhead[C]{\color{elbioimp@blue}\small\sl 
-  \elbioimp@shortauthor: \elbioimp@shorttitle. NMI, 
-  \elbioimp@vol, \elbioimp@firstpage--\lastpageref{VeryLastPage}, \elbioimp@year}
+  \elbioimp@shortauthor: 
+  \elbioimp@shorttitle. %NMI, 
+  % \elbioimp@vol, 
+  % \elbioimp@firstpage--\lastpageref{VeryLastPage}, 
+  % \elbioimp@year
+  }
 \fancyhead[L,R]{}
 \renewcommand{\headrulewidth}{0pt}
 \setlength{\footskip}{40pt}
