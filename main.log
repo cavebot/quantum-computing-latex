@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  17 SEP 2025 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  17 SEP 2025 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,12 +827,12 @@ LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <8> not available
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 30.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 40.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 39.
 
 
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 62.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 61.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
@@ -843,7 +843,7 @@ Underfull \vbox (badness 5548) has occurred while \output is active []
 <assets/LOGO-UF-SOLO (1).png, id=130, 1304.875pt x 301.125pt>
 File: assets/LOGO-UF-SOLO (1).png Graphic file (type png)
 <use assets/LOGO-UF-SOLO (1).png>
-Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 64.
+Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 63.
 (pdftex.def)             Requested size: 384.11221pt x 88.64272pt.
 [1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 
@@ -853,7 +853,7 @@ Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 64.
 <assets/bloch-sphere.png, id=157, 123.0999pt x 139.2402pt>
 File: assets/bloch-sphere.png Graphic file (type png)
 <use assets/bloch-sphere.png>
-Package pdftex.def Info: assets/bloch-sphere.png  used on input line 96.
+Package pdftex.def Info: assets/bloch-sphere.png  used on input line 95.
 (pdftex.def)             Requested size: 181.38632pt x 205.17778pt.
 
 
@@ -865,12 +865,12 @@ Package pdftex.def Info: assets/bloch-sphere.png  used on input line 96.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 
+l.124 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 
+l.124 
        <./assets/bloch-sphere.png>]
 
 
@@ -886,7 +886,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.189 
+l.188 
       ]
 
 
@@ -902,12 +902,12 @@ l.189
 [8]
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 290.
+(Font)              <9> on input line 289.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 290.
+(Font)              <6> on input line 289.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 290.
-LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 290.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 289.
+LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 289.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 )
@@ -915,41 +915,41 @@ File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 [9]
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 290.
+(biblatex)                Using fallback driver on input line 289.
 
 
 
 [10]
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPage on input line 292.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPage on input line 291.
 \c@pagesLTS.arabic.1.local.count=\count446
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting VeryLastPage on input line 292.
-Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPages on input line 292.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting VeryLastPage on input line 291.
+Package pageslts Info: enddocument/afterlastpage (AED): pageslts setting LastPages on input line 291.
 
 
 Package pageslts Info: Total number of pages is even.
