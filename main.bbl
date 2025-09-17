@@ -486,62 +486,6 @@
       \field{pages}{643\bibrangedash 646}
       \range{pages}{4}
     \endentry
-    \entry{Monroe1995}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
-           family={Monroe},
-           familyi={M\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=1a3a6463ddaeb090aa8d19af5dee659a}{%
-           family={Meekhof},
-           familyi={M\bibinitperiod},
-           given={D.\bibnamedelimi M.},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=0fb5f95c07813d117f54d056b9322b9d}{%
-           family={King},
-           familyi={K\bibinitperiod},
-           given={B.\bibnamedelimi E.},
-           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-        {{hash=4539bd748af41832d08db3384e7af341}{%
-           family={Itano},
-           familyi={I\bibinitperiod},
-           given={W.\bibnamedelimi M.},
-           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
-           family={Wineland},
-           familyi={W\bibinitperiod},
-           given={D.\bibnamedelimi J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{17de335944f22fa365445a8b67db6e84}
-      \strng{fullhash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{fullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{bibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{authorbibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
-      \strng{authorfullhash}{fbaf11b162a2302f7f333bfcbf52120b}
-      \strng{authorfullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Physical Review Letters}
-      \field{note}{National Institute of Standards and Technology, Boulder, Colorado}
-      \field{number}{25}
-      \field{title}{Demonstration of a Fundamental Quantum Logic Gate}
-      \field{volume}{75}
-      \field{year}{1995}
-      \field{pages}{4714\bibrangedash 4717}
-      \range{pages}{4}
-      \verb{urlraw}
-      \verb https://tf.nist.gov/general/pdf/140.pdf
-      \endverb
-      \verb{url}
-      \verb https://tf.nist.gov/general/pdf/140.pdf
-      \endverb
-    \endentry
     \entry{Srinivas_2021}{article}{}{}
       \name{author}{12}{}{%
         {{hash=4eb60145ba6536a54b8f67b04cde592c}{%
@@ -617,8 +561,8 @@
       \strng{authornamehash}{f37fa87e8b4e90cb00cbbf39926ff1c3}
       \strng{authorfullhash}{7f95cd029cf35cc68a54adfa80239273}
       \strng{authorfullhashraw}{7f95cd029cf35cc68a54adfa80239273}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1476-4687}
@@ -721,8 +665,8 @@
       \strng{authornamehash}{231f7074387540cbd70a567528461567}
       \strng{authorfullhash}{69ec892198e074bb0a7fe5f57b85bdde}
       \strng{authorfullhashraw}{69ec892198e074bb0a7fe5f57b85bdde}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Communications}
@@ -822,8 +766,8 @@
       \strng{authornamehash}{8b9a814ff2f81027e77fe782039cef74}
       \strng{authorfullhash}{f5db604cdcff4d78d4b250ca0f9313fa}
       \strng{authorfullhashraw}{f5db604cdcff4d78d4b250ca0f9313fa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{4}
@@ -859,8 +803,8 @@
       \strng{authornamehash}{22c32e8c6cc1bfe3a964c42055a9eac5}
       \strng{authorfullhash}{22c32e8c6cc1bfe3a964c42055a9eac5}
       \strng{authorfullhashraw}{22c32e8c6cc1bfe3a964c42055a9eac5}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -915,8 +859,8 @@
       \strng{authornamehash}{84579f3f095941cba9a7e3acf22af7fc}
       \strng{authorfullhash}{3d5e1fb484b7848375171408cc43112c}
       \strng{authorfullhashraw}{3d5e1fb484b7848375171408cc43112c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -957,8 +901,8 @@
       \strng{authornamehash}{71aa75f5142d6dcc74d81140954a9c4b}
       \strng{authorfullhash}{71aa75f5142d6dcc74d81140954a9c4b}
       \strng{authorfullhashraw}{71aa75f5142d6dcc74d81140954a9c4b}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{quant-ph}
@@ -991,8 +935,8 @@
       \strng{authornamehash}{01ca83caaed70864ec51bf66982928f8}
       \strng{authorfullhash}{01ca83caaed70864ec51bf66982928f8}
       \strng{authorfullhashraw}{01ca83caaed70864ec51bf66982928f8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{quant-ph}
@@ -1033,8 +977,8 @@
       \strng{authornamehash}{6319bec623946b3c190c524f4708b028}
       \strng{authorfullhash}{6319bec623946b3c190c524f4708b028}
       \strng{authorfullhashraw}{6319bec623946b3c190c524f4708b028}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2521-327X}
@@ -1103,8 +1047,8 @@
       \strng{editornamehash}{ff619abc452edd95f6f7eeac6084ab7d}
       \strng{editorfullhash}{ff619abc452edd95f6f7eeac6084ab7d}
       \strng{editorfullhashraw}{ff619abc452edd95f6f7eeac6084ab7d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper focuses on the optimization of the number of logical qubits in quantum algorithms for factoring and computing discrete logarithms in {\$}{\$}{\backslash}mathbb {\{}Z{\}}{\_}N^*{\$}{\$}ZN∗. These algorithms contain an exponentiation circuit modulo N, which is responsible for most of their cost, both in qubits and operations.}
@@ -1178,8 +1122,8 @@
       \strng{authornamehash}{8c5c261cdbaa1aab86651541c2e0893b}
       \strng{authorfullhash}{4710db9fed8385be16d39ea2825cca95}
       \strng{authorfullhashraw}{4710db9fed8385be16d39ea2825cca95}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -1232,8 +1176,8 @@
       \strng{authornamehash}{3434b4b9931a33441a057f2d1c265c4a}
       \strng{authorfullhash}{c9ad7b123100b54574eb46246a65890d}
       \strng{authorfullhashraw}{c9ad7b123100b54574eb46246a65890d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -1260,8 +1204,8 @@
       \strng{authornamehash}{2911da1c27ec2874718cafe07c5571d1}
       \strng{authorfullhash}{2911da1c27ec2874718cafe07c5571d1}
       \strng{authorfullhashraw}{2911da1c27ec2874718cafe07c5571d1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-09-16}
@@ -1272,6 +1216,63 @@
       \endverb
       \verb{url}
       \verb https://postquantum.com/industry-news/ibm-heron-r2-quantum/
+      \endverb
+    \endentry
+    \entry{quantinuum2025}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4e2fd57a29e49088c94209f0f766d1d}{%
+           family={Quantinuum},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{fullhash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{fullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{bibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorbibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authornamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorfullhash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorfullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{Quantinuum Unveils H2-1: The World's Most Powerful Quantum Computer}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
+      \endverb
+      \verb{url}
+      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
+      \endverb
+    \endentry
+    \entry{IonQ2025}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=db1a285fd361f4a0d64080eec2a1dee8}{%
+           family={IonQ},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{bibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorbibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authornamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{IonQ Roadmap}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \endverb
+      \verb{url}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
       \endverb
     \endentry
     \entry{atom2023}{website}{}{}
@@ -1290,8 +1291,8 @@
       \strng{authornamehash}{553409b194f60eee459545cb57018853}
       \strng{authorfullhash}{553409b194f60eee459545cb57018853}
       \strng{authorfullhashraw}{553409b194f60eee459545cb57018853}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-09-16}
@@ -1320,8 +1321,8 @@
       \strng{authornamehash}{9a491db8fd206d15ca71ec3eb9779983}
       \strng{authorfullhash}{9a491db8fd206d15ca71ec3eb9779983}
       \strng{authorfullhashraw}{9a491db8fd206d15ca71ec3eb9779983}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-09-16}
@@ -1365,8 +1366,8 @@
       \strng{authornamehash}{2536ffe7d0325745cd45201974dac076}
       \strng{authorfullhash}{a81d8e679e825dfa863264e55940ab27}
       \strng{authorfullhashraw}{a81d8e679e825dfa863264e55940ab27}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cond-mat.mes-hall}
@@ -1397,9 +1398,9 @@
       \strng{authornamehash}{db1a285fd361f4a0d64080eec2a1dee8}
       \strng{authorfullhash}{db1a285fd361f4a0d64080eec2a1dee8}
       \strng{authorfullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
-      \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-09-16}
@@ -1428,8 +1429,8 @@
       \strng{authornamehash}{93ee2a54f0a08760edfcf1019d1922c8}
       \strng{authorfullhash}{93ee2a54f0a08760edfcf1019d1922c8}
       \strng{authorfullhashraw}{93ee2a54f0a08760edfcf1019d1922c8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-09-16}
@@ -1442,63 +1443,61 @@
       \verb https://thequantuminsider.com/2025/05/16/quantum-computing-roadmaps-a-look-at-the-maps-and-predictions-of-major-quantum-players/
       \endverb
     \endentry
-    \entry{quantinuum2025}{website}{}{}
-      \name{author}{1}{}{%
-        {{hash=a4e2fd57a29e49088c94209f0f766d1d}{%
-           family={Quantinuum},
-           familyi={Q\bibinitperiod}}}%
+    \entry{Monroe1995}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a3a6463ddaeb090aa8d19af5dee659a}{%
+           family={Meekhof},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0fb5f95c07813d117f54d056b9322b9d}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4539bd748af41832d08db3384e7af341}{%
+           family={Itano},
+           familyi={I\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{fullhash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{fullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{bibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{authorbibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{authornamehash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{authorfullhash}{a4e2fd57a29e49088c94209f0f766d1d}
-      \strng{authorfullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2025-09-16}
-      \field{title}{Quantinuum Unveils H2-1: The World's Most Powerful Quantum Computer}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
-      \endverb
-      \verb{url}
-      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
-      \endverb
-    \endentry
-    \entry{ionq2025a}{website}{}{}
-      \name{author}{1}{}{%
-        {{hash=db1a285fd361f4a0d64080eec2a1dee8}{%
-           family={IonQ},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{fullhash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{fullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{bibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{authorbibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{authornamehash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{authorfullhash}{db1a285fd361f4a0d64080eec2a1dee8}
-      \strng{authorfullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{namehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{fullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{fullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{bibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authorbibnamehash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorfullhash}{fbaf11b162a2302f7f333bfcbf52120b}
+      \strng{authorfullhashraw}{fbaf11b162a2302f7f333bfcbf52120b}
       \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2025-09-16}
-      \field{title}{IonQ Roadmap}
-      \field{year}{2025}
+      \field{journaltitle}{Physical Review Letters}
+      \field{note}{National Institute of Standards and Technology, Boulder, Colorado}
+      \field{number}{25}
+      \field{title}{Demonstration of a Fundamental Quantum Logic Gate}
+      \field{volume}{75}
+      \field{year}{1995}
       \true{nocite}
+      \field{pages}{4714\bibrangedash 4717}
+      \range{pages}{4}
       \verb{urlraw}
-      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \verb https://tf.nist.gov/general/pdf/140.pdf
       \endverb
       \verb{url}
-      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \verb https://tf.nist.gov/general/pdf/140.pdf
       \endverb
     \endentry
   \enddatalist

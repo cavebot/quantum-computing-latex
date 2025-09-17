@@ -25,10 +25,7 @@
 \maketitle
 
 \begin{abstract}
-  This paper provides an accessible overview of the current state of quantum computing technologies
-  as of September 2025. Aimed at readers with a technical background but no prior experience in quantum
-  computing, it reviews foundational concepts, historical advancements, and leading hardware and software platforms. The paper
-  also discusses practical challenges, potential applications, and the outlook for future developments in the field.
+This paper provides an accessible overview of the current state of quantum computing technologies as of September 2025. Aimed at readers with a technical background but no prior experience in quantum computing, this paper reviews foundational concepts, historical advancements, and leading hardware and software platforms. The paper also discusses practical challenges, potential applications, and the outlook for future developments in the field.
 
   \keywords{Quantum Computing; Qubits; Decoherence; robotics}
 \end{abstract}
@@ -37,24 +34,16 @@
 Define Quantum Advantage here.
 Define Some other terms here.
 
-todo: add to historical section that Shor's algorithm is somewhat of a benchmark for quantum computing
-
 
 \section{. Historical Advancements in Quantum Computing}
 The first mentions of quantum computation can be traced as far back as the early as 1980s.
 In 1980, mathematician Yuri Manin discussed the concept of a quantum computer in his book \textit{Computable and Non Computable}\cite{Manin1980}. Richard Feynman, in 1982, published a paper
-`Simulating physics with computers' introducing the idea of simulating
-quantum systems using quantum computers\cite{Feynman1982}, highlighting the limitations
-of classical computers at simulating the exponentially growing state space of quantum
-systems and how quantum systems can be more efficiently simulated. 
 
-Given these initial few years of defining work, the field began
-to gain traction, followed by another \textit{10 years} of foundational theoretical developments.
-In 1985, David Deutsch further developed the quantum computing theory by rigorously defining the
-Universal Quantum Turing Machine (the quantum analog of a classical Turing machine) capable of
-performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}. 
-Further theoretical advancements continued with contributions from, reversible quantum computation by Paul Benioff between
-1985-1987\cite{benioff1986}, the first proposal of a physically realizable quantum computer using atoms and photons in 1998\cite{Igeta:88}, and attempts to define quantum complexity classes in 1989\cite{10.1145/167088.167097} which would eventually lead to the definition of Bounded-Error Quantum Polynomial Time (BQP) problems, an important class of problems in complexity theory that can be efficiently solved by quantum computers in polynomial time.
+`Simulating physics with computers', introducing the idea of simulating quantum systems using quantum computers\cite{Feynman1982}. Feynman highlighted the limitations of classical computers in simulating the exponentially growing state space of quantum systems, and how quantum computers could perform these simulations more efficiently.
+
+
+Following these initial years of foundational work, the field began to gain traction, leading to another \textit{10 years} of significant theoretical developments. In 1985, David Deutsch advanced quantum computing theory by rigorously defining the Universal Quantum Turing Machine—the quantum analog of a classical Turing machine—capable of performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}.
+Further theoretical progress included contributions such as reversible quantum computation by Paul Benioff between 1985 and 1987\cite{benioff1986}, the first proposal of a physically realizable quantum computer using atoms and photons in 1998\cite{Igeta:88}, and attempts to define quantum complexity classes in 1989\cite{10.1145/167088.167097}. These efforts eventually led to the definition of Bounded-Error Quantum Polynomial Time (BQP) problems, an important class in complexity theory that can be efficiently solved by quantum computers in polynomial time.
 
 It was not until 1992 that the first quantum algorithm was proposed by Deutsch and Jozsa\cite{Deutsch1992RapidSO},
 demonstrating that quantum computers could solve certain problems more efficiently than classical computers 
@@ -69,80 +58,21 @@ Another significant algorithm is Grover's algorithm, proposed by Lov Grover two 
 quadratic speedup for unstructured search problems.
 
 While these algorithms demonstrate the theoretical potential of quantum computers, they would be useless without
-the ability to assemble a physical quantum computer. Around the same time as these algorithmic developments,
-experimental researchers were developing the first real qubits and quantum gates. The first experimental demonstration
-of a quantum logic gate was realised in 1995 by a team using an electromagnetic trap to confine ions in place to form a two-qubit
-system. The energy levels of the ions are used to represent the qubit states (|0⟩ and |1⟩), while laser pulses are used 
-to manipulate these states. The team successfully implemented a controlled-NOT (CNOT) gate, which is a fundamental quantum gate
-universal quantum gate used in many quantum algorithms\cite{PhysRevLett.75.4714}. 
-One might define this point in time as the take off point in the history of quantum computing as it was demonstrated, roughly in parallel,
-to be both theoretically computationally advantageous (for certain classes of problems) and experimentally realisable and a large acceleration
-in research and development followed. Over the next decade experiments would demonstrate  more complex gates, and increased amount of qubits 
-(8 qubit registers by December 2005)\cite{8bitregister}, and even new quantum systems that can implement qubits 
-such as superconducting states, nuclear spins, quantum dots and even photon polarization. Theoretical advancements also continued, with the 
-development of quantum error correction codes and various proofs of principle for quantum algorithms that further highlighted feasability and
-limitations.
 
-Up to this point, it is well known that quantum computers suffer from an extreme scaling problems. Qubits are extremely sensitive to their environment
-and suffer badly from quantum decoherence which limits the rate at which additional qubits can be added to a system before the entire system becomes unstable
-highlighting why it took so long to scale beyond only a few qubits. Table~\ref{tab:qubit_counts} summarizes some of the key leaps in qubiit counts over the years.
-
-\begin{table*}[b]
-\centering
-\begin{tabular}{|c|c|l|}
-\hline
-\textbf{Year} & \textbf{Qubit Count} & \textbf{Description} \\
-\hline
-1995 & 2 & First experimental demonstration of a quantum logic gate using trapped ions\cite{Monroe1995} \\
-\hline
-2001 & 7 & Implementation of Shor's algorithm on a 7 qubit NMR quantum computer\cite{Vandersypen2001} \\
-\hline
-2005 & 8 & Demonstration of an 8 qubit register using trapped ions\cite{https://www.nature.com/articles/nature04279} \\
-\hline
-2011 & 5 & D-Wave Systems announced a 512 qubit quantum annealer\cite{DWave2011} \\
-\hline
-2016 & 16 & IBM unveiled a 16 qubit superconducting quantum processor\cite{IBM2016} \\
-\hline
-2017 & 20 & Google announced a 20 qubit superconducting quantum processor\cite{Google2017} \\
-\hline
-2019 & 53 & Google's Sycamore processor achieved quantum supremacy with 53 qubits\cite{Arute2019} \\
-\hline
-2020 & 65 & Honeywell announced a 65 qubit trapped ion quantum computer\cite{Honeywell2020} \\
-\hline
-2021 & 127 & IBM unveiled a 127 qubit superconducting quantum processor\cite{IBM2021} \\
-\hline
-2022 & 433 & IonQ announced a 433 qubit trapped ion quantum computer\cite{IonQ2022} \\
-\hline
-2023 & 1000+ & Various companies announced plans for quantum processors with over 1000 qubits\cite{Various2023} \\
-\hline
-2024 & 2000+ & Continued advancements with processors exceeding 2000 qubits\cite{Various2024} \\
-\hline
-2025 & 5000+ & Leading companies project quantum processors with over 5000 qubits\cite{Various2025} \\
-\hline
-\end{tabular}
-\caption{Key advancements in qubit counts from 1995 to 2025 and their corresponding platforms.}\label{tab:qubit_counts}
-\end{table*}
+the ability to assemble a physical quantum computer. Around the same time as these algorithmic developments, experimental researchers were developing the first real qubits and quantum gates. The first experimental demonstration of a quantum logic gate was realized in 1995 by a team using an electromagnetic trap to confine ions in place, forming a two-qubit system. The energy levels of the ions were used to represent the qubit states (|0⟩ and |1⟩), while laser pulses manipulated these states. The team successfully implemented a controlled-NOT (CNOT) gate, a fundamental universal quantum gate used in many quantum algorithms\cite{PhysRevLett.75.4714}.
+This point in time can be considered the take-off moment in the history of quantum computing, as it was demonstrated—roughly in parallel—to be both theoretically computationally advantageous (for certain classes of problems) and experimentally realizable. A large acceleration in research and development followed. Over the next decade, experiments demonstrated more complex gates and increased numbers of qubits (8-qubit registers by December 2005)\cite{8bitregister}, as well as new quantum systems capable of implementing qubits, such as superconducting states, nuclear spins, quantum dots, and even photon polarization. Theoretical advancements also continued, with the development of quantum error correction codes and various proofs of principle for quantum algorithms that further highlighted feasibility and limitations.
 
 
-% "The next major advancement in quantum computing came in 2009 with the proposal of topological qubits
-% by Alexei Kitaev\cite{Kitaev2003}. Topological qubits are designed to be more robust against local sources of decoherence by encoding information in global properties of the system
-% rather than local states. This approach promised to significantly reduce error rates and improve the scalability of quantum computers. While still in the experimental stage, topological qubits represent a promising avenue for building more practical and scalable quantum computers."
-
+Up to this point, it is well known that quantum computers suffer from extreme scaling problems. Qubits are highly sensitive to their environment and are severely affected by quantum decoherence, which limits the rate at which additional qubits can be added to a system before the entire system becomes unstable. This sensitivity explains why it took so long to scale beyond only a few qubits. Table~\ref{tab:qubit_counts} summarizes some of the key leaps in qubit counts over the years.
 
 \section{. Fundamentals of Quantum Computing}
 In order to properly understand the current state of quantum computing, it is important to first understand
 some of the fundamental concepts. What exactly is a qubit? What is superposition and entanglement? What is a quantum gate?
 
 \subsection{. Qubits and their construction}
-For the average reader without a background in quantum mechanics, but with at least some technical background in computing,
-a qubit can be thought of as the quantum analog of a classical bit. When we use the term `classical', we specifically mean 
-non quantum, as in the type of computing that underpins all modern computers today. A classical bit represents the fundamental 
-unit of information in classical computing and is binary in nature, meaning that a bit exists in either one of two states, usually
-represented as 0 or 1. In classical physics, it is straightforward to encode a bit's state as either 0 or 1. Usually this is done
-using voltage levels, where a high voltage might represent a 1 and a low voltage a 0. An important point to state at this point
-is that a classical bit can only exist in one of these two states at any given time. In classical physics there is no such thing as being both high and low voltage at the same time. It is either one or the other.
+For the average reader without a background in quantum mechanics, but with some technical background in computing, a qubit can be thought of as the quantum analog of a classical bit. When we use the term `classical', we specifically mean non-quantum, referring to the type of computing that underpins all modern computers today. A classical bit represents the fundamental unit of information in classical computing and is binary in nature, meaning it exists in one of two states, usually represented as 0 or 1. In classical physics, it is straightforward to encode a bit's state as either 0 or 1, typically using voltage levels, where a high voltage might represent a 1 and a low voltage a 0. An important point to note is that a classical bit can only exist in one of these two states at any given time. In classical physics, there is no such thing as being both high and low voltage simultaneously; it is always one or the other.
 
-Similarly a qubit is also a binary unit of information, but it operates according to the principles of quantum mechanics. There are many quantum mechanical systems that can be used to physically realise a qubit, and generally, any two level quantum system can technically be used as a qubit. Consider, for example, the spin angular momentum of an electron. This `spin' can take strictly two values: `up' or `down', which can be used to represent the 0 and 1 states of a qubit. Other physical systems that can be used to realise qubits include the polarization states of photons, energy levels of atoms or ions, and superconducting circuits. We are not limited to just electronic spins but a rich variety of physical systems can be used to implement qubits, each with its own advantages and challenges. Such systems include but are not limited to:
+Similarly, a qubit is also a binary unit of information, but it operates according to the principles of quantum mechanics. Many quantum mechanical systems can be used to physically realize a qubit, and in general, any two-level quantum system can serve as a qubit. For example, the spin angular momentum of an electron can take two distinct values: `up' or `down', which correspond to the 0 and 1 states of a qubit. Other physical systems that can be used to realize qubits include the polarization states of photons, energy levels of atoms or ions, and superconducting circuits. We are not limited to electronic spins alone. A rich variety of physical systems can be used to implement qubits, each with its own advantages and challenges. Such systems include, but are not limited to:
 \begin{itemize}
   \item Trapped ions and neutral atoms electronic states
   \item Superconducting states (charge, flux, or phase)
@@ -151,31 +81,31 @@ Similarly a qubit is also a binary unit of information, but it operates accordin
   \item Nuclear spins (nuclear magnetic resonance spin)
 \end{itemize}
 
-When we consider that the underlying quantum system is being used as just a different way to encode a binary state, it might be tempting to think of a qubit as just a more complex representation of a classical bit. However, the actual power of of quibits lies in their ability to exist in a state called a \textit{quantum superposition}, which is a fundamental principle of quantum mechanics.
+When we consider that the underlying quantum system is simply being used as an alternative way to encode a binary state, it might be tempting to view a qubit as merely a more complex representation of a classical bit. However, the true power of qubits lies in their ability to exist in a state called \textit{quantum superposition}, which is a fundamental principle of quantum mechanics.
 
 
 \subsection{. Quantum States, Superposition and Entanglement}
-In the realm of quantum mechanics we represent the state of a quantum system using a special notation called Bra-ket notation. In this notation, the up state is represented as |0⟩ and the down state as |1⟩. As mentioned previously, however, unlike a classical bit, a qubit can exist in a combination (superposition) of both states simultaneously. For those who are mathematically inclined, this means that a qubit can be in a state that is a linear combination of |0⟩ and |1⟩, represented mathematically as:
+In quantum mechanics, we represent the state of a quantum system using a special notation called bra-ket notation. In this notation, the up state is represented as $|0\rangle$ and the down state as $|1\rangle$. As mentioned previously, however, unlike a classical bit, a qubit can exist in a combination (superposition) of both states simultaneously. For those who are mathematically inclined, this means that a qubit can be in a state that is a linear combination of $|0\rangle$ and $|1\rangle$, represented mathematically as:
 \begin{equation}
   |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 \end{equation}
 
-where $\psi$ just means `the state of the qubit'. The coefficients $\alpha$ and $\beta$ are complex numbers that represent the probability amplitudes of the qubit being in the |0⟩ and |1⟩ states, respectively. This expression for the superposition, given that the complex coefficients are continuous values, show us that the qubit has an uncountably infinite amount of states it can be in. 
+where $\psi$ just means `the state of the qubit'. The coefficients $\alpha$ and $\beta$ are complex numbers that represent the probability amplitudes of the qubit being in the $|0\rangle$ and $|1\rangle$ states, respectively. This expression for the superposition, given that the complex coefficients are continuous values, shows us that the qubit has an uncountably infinite number of possible states, with a state for every possible combination of $\alpha$ and $\beta$. This is in stark contrast to a classical bit, which can only be in one of two discrete states.
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.75\columnwidth]{assets/bloch-sphere.png}
-  \caption{The Bloch Sphere representation of a qubit. Any point on the surface of the sphere represents a valid qubit state, with |0⟩ and |1⟩ at the poles. The angles $\theta$ and $\phi$ determine the specific superposition state.}
-  \label{fig:bloch-sphere}
+  \caption{The Bloch Sphere representation of a qubit. Any point on the surface of the sphere represents a valid qubit state, with |0⟩ and |1⟩ at the poles. The angles $\theta$ and $\phi$ determine the specific superposition state.}\label{fig:bloch-sphere}
 \end{figure}
-The probabilities of measuring the qubit to be in either state are given by the squares of the magnitudes of these coefficients. In some sense they represent the `weight' of each state in the superposition, the likelihood that measuring the qubit will give that particular state, as in quantum mechanics, the act of measurement causes the qubit to `collapse' into one of the base states (either |0⟩ or |1⟩) with probabilities determined by these coefficients. It is this superposition that enables quantum computers to perform certain computations more efficiently than classical computers as these complex coefficients can interfere constructively or destructively during quantum computations, allowing quantum algorithms to amplify the probabilities of correct answers while suppressing incorrect ones.
 
-The nature of superposition also leads to the concept of \textit{entanglement}, another fundamental property of quantum mechanics. When two qubits become entangled, the state of one qubit becomes directly correlated to the state of the other, regardless of the distance between them. This means that measuring one qubit instantly determines the state of the other qubit. Entanglement is a key resource in many quantum algorithms and protocols, enabling phenomena such as quantum teleportation and superdense coding. It is also a crucial component in achieving quantum advantage, as it allows for correlations that are not possible in classical systems as there is no classical analog to entanglement, it is a purely quantum mechanical phenomenon.
+The probabilities of measuring the qubit in either state are given by the squares of the magnitudes of these coefficients. In some sense, they represent the `weight' of each state in the superposition—the likelihood that measuring the qubit will yield that particular state. In quantum mechanics, the act of measurement causes the qubit to `collapse' into one of the base states (either |0⟩ or |1⟩), with probabilities determined by these coefficients. It is this superposition that enables quantum computers to perform certain computations more efficiently than classical computers, as these complex coefficients can interfere constructively or destructively during quantum computations, allowing quantum algorithms to amplify the probabilities of correct answers while suppressing incorrect ones.
 
-As the coefficients $\alpha$ and $\beta$ are complex numbers, they have both a magnitue and a phase, and it is this phase that allows for interference effects to occur due to relative phase differences between qubit states. Maintining stable relative phases is critical for the proper functioning of quantum algorithms, and is measured by a property called coherence time, which is the time over which a qubit can maintain its quantum state before loss of information to the environment (decoherence) occurs. The global coherence of a multi qubit system is particularly important, as quantum algorithms often rely on the interference of amplitudes across multiple qubits to achieve their computational advantage. Two important metrics used to quantify the coherence of qubits are $\tau_1$ and $\tau_2$ times. $\tau_1$, or relaxation time, measures how long a qubit can stay in an excited state before it decays to its ground state due to energy loss to the environment. $\tau_2$, or dephasing time, measures how long a qubit can maintain its phase coherence before interactions with the environment cause it to lose its quantum information. Both $\tau_1$ and $\tau_2$ times are critical for the performance of quantum computers, as they determine how long quantum information can be reliably stored and manipulated.
+The nature of superposition also leads to the concept of \textit{entanglement}, another fundamental property of quantum mechanics. When two qubits become entangled, the state of one qubit becomes directly correlated to the state of the other, regardless of the distance between them. This means that measuring one qubit instantly determines the state of the other. Entanglement is a key resource in many quantum algorithms and protocols, enabling phenomena such as quantum teleportation and superdense coding. It is also a crucial component in achieving quantum advantage, as it allows for correlations that are not possible in classical systems; there is no classical analog to entanglement. It is a purely quantum mechanical phenomenon.
+
+As the coefficients $\alpha$ and $\beta$ are complex numbers, they have both a magnitude and a phase, and it is this phase that allows for interference effects to occur due to relative phase differences between qubit states. Maintaining stable relative phases is critical for the proper functioning of quantum algorithms, and is measured by a property called coherence time, which is the time over which a qubit can maintain its quantum state before loss of information to the environment (decoherence) occurs. The global coherence of a multi-qubit system is particularly important, as quantum algorithms often rely on the interference of amplitudes across multiple qubits to achieve their computational advantage. Two important metrics used to quantify the coherence of qubits are $\tau_1$ and $\tau_2$ times. $\tau_1$, or relaxation time, measures how long a qubit can stay in an excited state before it decays to its ground state due to energy loss to the environment. $\tau_2$, or dephasing time, measures how long a qubit can maintain its phase coherence before interactions with the environment cause it to lose its quantum information. Both $\tau_1$ and $\tau_2$ times are critical for the performance of quantum computers, as they determine how long quantum information can be reliably stored and manipulated.
 
 \subsection{. Quantum Gates}
 
-It's all well and good to be able to create qubits and understand their properties, in order to perform computations we need a way to manipulate these qubits and perform quantum gate operations on them. Quantum gates are the quantum analogs of classical logic gates. While classical logic gates could be interpreted as performing operations that flip or combine bits in their restrictied classical space, quantum gates are represented mathematically by matrices operating on the state (vectors) of the qubits, performing flips, rotations, entanglements and other transformations in the much larger quantum state space. This makes more sense when considering the geometric representation of a qubit on the Bloch sphere (see Figure.~\ref{fig:bloch-sphere}), where quantum gates can be visualized as rotations of the qubit state vector on this sphere.
+It's all well and good to be able to create qubits and understand their properties; however, to perform computations, we need a way to manipulate these qubits through quantum gate operations. Quantum gates are the quantum analogs of classical logic gates. While classical gates operate by flipping or combining bits within their restricted classical space, quantum gates are represented mathematically by matrices acting on the state vectors of qubits, enabling flips, rotations, entanglement, and other transformations within the much larger quantum state space. This is best understood by considering the geometric representation of a qubit on the Bloch sphere (see Figure~\ref{fig:bloch-sphere}), where quantum gates can be visualized as rotations of the qubit's state vector on the sphere.
 
 \begin{figure}[h]
   \centering
@@ -190,10 +120,47 @@ It's all well and good to be able to create qubits and understand their properti
   \caption{Example of a simple 4-qubit quantum circuit. Each horizontal line represents a qubit, and the symbols show basic operations that can be performed on them such as the Hadamard gate (H), controlled NOT gate (CNOT), phase gate (S), Pauli-X gate (X), and Pauli-Y gate (Y).}
 \end{figure}
 
-In practice, the experimental implementation of quantum gates depends on the physical system used to realise the qubits. For example, in superconducting qubits, microwave pulses are used to manipulate the energy levels of the qubits, while in trapped ion systems, laser pulses are used to control the internal states of the ions. Common single-qubit gates include the Pauli-X, Y, and Z gates (which correspond to bit-flip and phase-flip operations), as well as the Hadamard gate (which creates superposition). Multi-qubit gates, such as the CNOT (Controlled-NOT) gate, are essential for creating entanglement between qubits and enabling more complex quantum operations. Given that gate operations are actual physical operations, they take a finite duration of time. The time taken to perform a gate operation, known as the gate time $\tau_g$, is important in the context of quantum algorithms, as it must be much shorter than the coherence times ($\tau_1$ and $\tau_2$)(see practical challenges section).
+
+In practice, the experimental implementation of quantum gates depends on the physical system used to realize the qubits. For instance, in superconducting qubits, microwave pulses manipulate the energy levels of the qubits, whereas in trapped ion systems, laser pulses control the internal states of the ions. Common single-qubit gates include the Pauli-X, Y, and Z gates (corresponding to bit-flip and phase-flip operations), as well as the Hadamard gate (which creates superposition). Multi-qubit gates, such as the CNOT (Controlled-NOT) gate, are essential for generating entanglement between qubits and enabling more complex quantum operations. Since gate operations are physical processes, they require a finite amount of time. The time needed to perform a gate operation, known as the gate time $\tau_g$, is a critical parameter in quantum algorithms, as it must be much shorter than the coherence times ($\tau_1$ and $\tau_2$; see practical challenges section).
+
+\begin{table*}[t]
+  \centering
+  \begin{tabular}{|c|c|l|}
+  \hline
+  \textbf{Year} & \textbf{Qubit Count} & \textbf{Description} \\
+  \hline
+  1995 & 2 & First experimental demonstration of a quantum logic gate using trapped ions \\
+  \hline
+  2001 & 7 & Implementation of Shor's algorithm on a 7 qubit NMR quantum computer \\
+  \hline
+  2005 & 8 & Demonstration of an 8 qubit register using trapped ions \\
+  \hline
+  2011 & 5 & D-Wave Systems announced a 512 qubit quantum annealer \\
+  \hline
+  2016 & 16 & IBM unveiled a 16 qubit superconducting quantum processor \\
+  \hline
+  2017 & 20 & Google announced a 20 qubit superconducting quantum processor \\
+  \hline
+  2019 & 53 & Google's Sycamore processor achieved quantum supremacy with 53 qubits \\
+  \hline
+  2020 & 65 & Honeywell announced a 65 qubit trapped ion quantum computer \\
+  \hline
+  2021 & 127 & IBM unveiled a 127 qubit superconducting quantum processor \\
+  \hline
+  2022 & 433 & IonQ announced a 433 qubit trapped ion quantum computer \\
+  \hline
+  2023 & 1000+ & Various companies announced plans for quantum processors with over 1000 qubits \\
+  \hline
+  2024 & 2000+ & Continued advancements with processors exceeding 2000 qubits \\
+  \hline
+  2025 & 5000+ & Leading companies project quantum processors with over 5000 qubits \\
+  \hline
+  \end{tabular}
+  \caption{Key advancements in qubit counts from 1995 to 2025 and their corresponding platforms.}\label{tab:qubit_counts}
+\end{table*}
 
 \subsection{. Decoherence, Errors, and Correction}
-In an actual quantum computer, we are far from the ideal mathematical situation of qubits being perfectly coherent, noise free, and decoupled from the environment. In practice, the quantum states required are incredibly delicate, generally requiring the system to be supercooled to near absolute zero temperatures, and isolated from all external influences. Even still, it is impossible to remove all sources of noise, and as such, the system is subject to decoherence. Decoherence is the proceess by which a quantum system loses its quantum properties due to interactions with its environment. This can occur through various mechanisms, such as thermal fluctuations, electromagnetic interference, or imperfections in the qubit fabrication process. Decoherence leads to the loss of superposition and entanglement, effectively collapsing the qubit states into classical states and destroying the quantum information they carry. This is not a limitation of hardware alone, but a fundamental property of quantum mechanics itself. As stated earlier, the coherence times $\tau_1$ and $\tau_2$ are critical metrics that quantify how long a qubit can maintain its quantum state before decoherence occurs. As we add more qubits to the system, the global coherence of the multi-qubit becomes exponentially more fragile and susceptible to decoherence, making it increasingly challenging to maintain the quantum information across the entire system. Decoherence ultimately results in the occurrence of errors during quantum computations as the global state collapses unpredictably.
+In an actual quantum computer, we are far from the ideal mathematical situation of qubits being perfectly coherent, noise free, and decoupled from the environment. In practice, the quantum states required are incredibly delicate, generally requiring the system to be supercooled to near absolute zero temperatures and isolated from all external influences. Even so, it is impossible to remove all sources of noise, and as such, the system is subject to decoherence. Decoherence is the process by which a quantum system loses its quantum properties due to interactions with its environment. This can occur through various mechanisms, such as thermal fluctuations, electromagnetic interference, or imperfections in the qubit fabrication process. Decoherence leads to the loss of superposition and entanglement, effectively collapsing the qubit states into classical states and destroying the quantum information they carry. This is not a limitation of hardware alone but a fundamental property of quantum mechanics itself. As stated earlier, the coherence times $\tau_1$ and $\tau_2$ are critical metrics that quantify how long a qubit can maintain its quantum state before decoherence occurs. As we add more qubits to the system, the global coherence of the multi-qubit system becomes exponentially more fragile and susceptible to decoherence, making it increasingly challenging to maintain the quantum information across the entire system. Decoherence ultimately results in the occurrence of errors during quantum computations as the global state collapses unpredictably.
 
 Decoherence is not the only source of error in quantum computations. The quantum gate operations themselves are also subject to imperfect operations and thus have some probability of failure. For example, attempting to perform an X gate on a qubit in the |0⟩ state might not always successfully flip it to the |1⟩ state due to imperfections in the control pulses or interactions with the environment during the gate operation. This is known as gate error. Gate fidelity is a measure of how accurately a quantum gate performs the intended operation, and it is typically quantified using metrics such as the average gate fidelity. As a rule of thumb, gate fidelities above 99\% are generally considered good, but for practical quantum computing, even higher fidelities (e.g., 99.9\% or better) are often required.
 
@@ -201,7 +168,7 @@ To mitigate the effects of decoherence and gate errors, quantum error correction
 
 
 \section{. Practical Challenges in Quantum Computing}
-\subsection{1. Decoherence and Noise}
+\subsection{. Decoherence and Noise}
 As stated in the previous section, the fragility of quantum states plays a huge role in the accuracy of quantum computations. Qubits interact unavoidably with their environments, leading to decoherence that destroys superpositions and entanglement, which are essential for quantum advantage and reducing the error rates of quantum gates. Minimizing decoherence and noise is one of the biggest challenges in building practical quantum computers. The scaling effect of decoherence and noise is particularly problematic as the number of qubits increases, making it exponentially more difficult to maintain coherence across the entire system as we enter the realm of hundreds to thousands of qubits.
 
 
@@ -217,13 +184,10 @@ Acheiving fault tolerance in quantum computers opens its own entire area of rese
 The goal of error correction is to accept that faults are guaranteed to occur, and aims to detect them, and in turn correct them.
 In general, this is achieved through the concept of a \textit{logical qubit}.
 
-While actual physical qubits are capable of computation,
-the probability of error is too high to achieve correct results for realistic problems. A logical qubit is an an {collection} of qubits that are used
-for redundancy in the case of errors. We might then say, that one \textit{useful} quibit consists of multiple physical qubits. It is this logical qubit that quantum
-computation is done with. The logical qubit becomes a fault tolerant qubit via the implementation of error correction codes which use the ensemle to correct errors that
-occur in the logical qubit.
+While actual physical qubits are capable of computation, the probability of error is too high to achieve correct results for realistic problems. A logical qubit is an an {collection} of qubits that are used
+for redundancy in the case of errors. We might then say, that one \textit{useful} quibit consists of multiple physical qubits. It is this logical qubit that quantum computation is done with. The logical qubit becomes a fault tolerant qubit via the implementation of error correction codes which use the ensemle to correct errors that occur in the logical qubit.
 
-Many different error correction schemes exist, but leading schemes like surface codes or color codes require many physical qubits per logical qubit, leading to a huge overhead in the number of qubits required for practical quantum computing. In 2023, researchers at google showed experimentally that error rates could be reduced by using increased physical qubit counts\cite{GoogleQAI2023}. Specifically they showed that increasing the physical qubit count from 17 to 49 per logical qubit, the error rate decreased from 3.0\% to 2.9\% While this important result shows the potential for improving error rates through increased qubit counts, it also highlights the scale at which we might need to reach to achieve robust error correction. Modern error correction scheme estimates suggested that practical computing would hundreds to thousands of physical qubits per logical qubit, requiring a total number of physical qubits in the order of millions for a practical computation. This is often referred to as the logical-to-physical qubit gap, and it represents one of the biggest challenges in scaling up quantum computers to the sizes needed for practical applications. However, only in the last couple of years, huge strides have been made in developing super efficient error correction codes. 2024 research by  IBM reported the implementation of a new error correction code called the Gr$\o$ss code, which protected 12 logical qubits using only 288 physical qubits (24 qubits per logical qubit) for approximately one million error correction cycles, demonstrating a significant reduction in the logical-to-physical qubit ratio\cite{FTQM2024} compared to other leading codes like surface code. Surface code, according to the IBM analysis, would require almost 3000 physical qubits to achieve the same task. 
+Many different error correction schemes exist, but leading schemes like surface codes or color codes require many physical qubits per logical qubit, leading to a huge overhead in the number of qubits required for practical quantum computing. In 2023, researchers at google showed experimentally that error rates could be reduced by using increased physical qubit counts\cite{GoogleQAI2023}. Specifically they showed that increasing the physical qubit count from 17 to 49 per logical qubit, the error rate decreased from 3.0\% to 2.9\% While this important result shows the potential for improving error rates through increased qubit counts, it also highlights the scale at which we might need to reach to achieve robust error correction. Modern error correction scheme estimates suggested that practical computing would hundreds to thousands of physical qubits per logical qubit, requiring a total number of physical qubits in the order of millions for a practical computation. This is often referred to as the logical-to-physical qubit gap, and it represents one of the biggest challenges in scaling up quantum computers to the sizes needed for practical applications. However, only in the last couple of years, huge strides have been made in developing super efficient error correction codes. 2024 research by  IBM reported the implementation of a new error correction code called the Gr\"oss code, which protected 12 logical qubits using only 288 physical qubits (24 qubits per logical qubit) for approximately one million error correction cycles, demonstrating a significant reduction in the logical-to-physical qubit ratio\cite{FTQM2024} compared to other leading codes like surface code. Surface code, according to the IBM analysis, would require almost 3000 physical qubits to achieve the same task. 
 
 Microsoft and Quintinium, also in 2024, announced similar low ratio logical qubits using only 30 physical to encode 4 logical qubits (7.5 physical per logical qubit) using their own error correction techniques. However their quantum system is limited to only 32 physical qubits, so while the ratio is impressive, the absolute number of logical qubits is still very small\cite{paetznick2024demonstrationlogicalqubitsrepeated}. However this highlights the rapid pace of advancements in error correction codes and the potential for more efficient schemes to significantly reduce the overhead required for fault tolerant quantum computing.
 
@@ -232,7 +196,7 @@ While these results are promising, it is important to note that these are still 
 \subsection{. Time \& Space resource requirements for practical algorithms}
 The particularly well known Shor’s algorithm is regularly used as the benchmark for quantum computing, as it is one of the most famous algorithms that demonstrates a clear quantum advantage over classical algorithms. It has been suggested in simpler implementations that Shor's algorithm for factoring an $n$-bit integer can be achieved with as `few' as $2n+3$ \textit{logical} qubits, with the number of gate operations required to achieve the factorization scaling as $O(n^3)$\cite{beauregard2003circuitshorsalgorithmusing}. Given RSA encryption 2048-bit integers this suggests RSA encryption breaking could be done with 4099 logical qubits, but in the order of tens of billions of gate operations (high gate depth) consisting of modular quantum additions, multiplications and fourier transforms generally performed sequentially. Given the current state of gate speeds and coherence times, this is far beyond the capabilities of current quantum computers as the system would decohere long before the computation could complete.
 
-Further research has investigated trading space for time, and vice versa, i.e using circuits that require more qubits to reduce the overall gate depth, or circuits that use fewer qubits but require more gate operations. However, even with these optimizations, the resource requirements for practical implementations of Shor's algorithm remain extremely high. More recent estimates suggest that factoring a 2048-bit integer using Shor's algorithm would require on the order of 20 million physical qubits when considering error correction overheads and realistic gate fidelities in a computation taking around 8 hours\cite{Gidney_2021}. However no quantum computer with this physical qubit count is anywhere close to being built. On the flip side, trading time for space to minimize qubit counts, a 2024 paper proposed a method to factor a 2048-bit integer using only $n/2$ logical qubits (~1730) logical qubits, but at the cost of an extremely high gate depth requiring on the order of tens of trillions of operations\cite{10.1007/978-3-032-01878-6_13}. Even with optimistic gate speeds of 1 microsecond per gate and perfect error correction, this computation would take around 230 days to complete.
+Further research has investigated trading space for time, and vice versa, i.e using circuits that require more qubits to reduce the overall gate depth, or circuits that use fewer qubits but require more gate operations. However, even with these optimizations, the resource requirements for practical implementations of Shor's algorithm remain extremely high. More recent estimates suggest that factoring a 2048-bit integer using Shor's algorithm would require on the order of 20 million physical qubits when considering error correction overheads and realistic gate fidelities in a computation taking around 8 hours\cite{Gidney_2021}. However no quantum computer with this physical qubit count is anywhere close to being built. On the flip side, trading time for space to minimize qubit counts, a 2024 paper proposed a method to factor a 2048-bit integer using only $n/2$ logical qubits (roughly 1730) logical qubits, but at the cost of an extremely high gate depth requiring on the order of tens of trillions of operations\cite{10.1007/978-3-032-01878-6_13}. Even with optimistic gate speeds of 1 microsecond per gate and perfect error correction, this computation would take around 230 days to complete.
 
 Considering the largest quantum computers to date, attention is generally brought to D-Wave's advantage system which boasts 5000+ qubits\cite{NatureQC2023}. However this does not actually operate as a universal quantum computer, specifically designed for optimization problems using quantum annealing. Despite this limitation, it highlights the vast discrepancy between current qubit counts and the requirements of millions for practical applications like breaking RSA encryption.
 
@@ -255,7 +219,7 @@ Together, these challenges necessitate the need for advances not only in quantum
 Superconducting qubits are among the most widely used platforms for quantum computing, leveraging Josephson junctions to create two-level quantum systems. These qubits are fabricated using standard microfabrication techniques and operate at millikelvin temperatures using dilution refrigerators. Superconducting qubits offer fast gate speeds and are highly scalable, with leading implementations from IBM, Google, and Rigetti. Google have claimed quantum supremacy with their Sycamore processor with a count of 53 physical qubits in 2019 though this claim has sparked debate due to the benchmarking used. Similarly the more modern 105 qubit google quantum processor, Sycamore, has been developed, with claims of `below threshold' error corrections, though demonstrations are limited to specific cases\cite{google2025}. IBM also have notable quantum processors, with their Heron r2 and condor processors, having 156 and 1121 superconducting qubits. While condor has nearly an order of magnitude more qubits, the Heron r2 has higher fidelities and lower error rates, highlighting the trade offs between qubit count and quality, when compared in actual benchmarking tests\cite{postquantum2024}.
 
 \subsection{. Trapped Ions}
-Trapped ion quantum computers use electromagnetic fields to confine ions in vacuum chambers, with qubit states encoded in the internal energy levels of the ions. Laser pulses are used to manipulate and entangle the ions, achieving high-fidelity gate operations and long coherence times. Companies like IonQ and Honeywell have demonstrated significant advances in scaling trapped ion systems. The main challenges are slow gate speeds and difficulties in miniaturizing the control hardware. Quantinuum have  anounced a 96 qubit trapped ion system to be accessible via Hardware-as-a-service in 2025\cite{Quantinuum2025} with 99.9\% fidelity in both one and two-qubit gates across all qubit pairs with all-to-all connectivity across qubits They claim also ~50 logical quibits are possible. IONQ have a similar 36 qubit system with high fidelities and expect to incrase to 64 qubits in 2025\cite{IonQ2025}.
+Trapped ion quantum computers use electromagnetic fields to confine ions in vacuum chambers, with qubit states encoded in the internal energy levels of the ions. Laser pulses are used to manipulate and entangle the ions, achieving high-fidelity gate operations and long coherence times. Companies like IonQ and Honeywell have demonstrated significant advances in scaling trapped ion systems. The main challenges are slow gate speeds and difficulties in miniaturizing the control hardware. Quantinuum have  anounced a 96 qubit trapped ion system to be accessible via Hardware-as-a-service in 2025\cite{quantinuum2025} with 99.9\% fidelity in both one and two-qubit gates across all qubit pairs with all-to-all connectivity across qubits They also claim around 50 logical quibits are possible. IONQ have a similar 36 qubit system with high fidelities and expect to increase to 64 qubits in 2025\cite{IonQ2025}.
 
 \subsection{. Photonic Qubits}
 Photonic quantum computers encode qubits in the polarization, path, or number states of photons. These systems operate at room temperature and are naturally immune to many noise sources such as charge, flux and magnetic fields due to photons themselves being uncharged. Photonic platforms are well-suited for quantum communication and networking, with companies like Xanadu and PsiQuantum leading development. Challenges include efficient photon generation, detection, and scalable entanglement. However photonic systems lag behind other platforms in terms of qubit counts and gate fidelities, with current systems typically limited to tens of qubits.
@@ -300,6 +264,13 @@ For superconducting qubits, companies like IBM and Google have set ambitious goa
 IonQ's more recent roadmap (June 2025) for trapped ion qubit systems emphasizes scalability through modular architectures, aiming to connect multiple ion traps to create larger quantum processors. They also plan to improve gate speeds and fidelities to enable more complex algorithms. Their goal is by 2028 to have developed single quantum processors with 10,000 physical qubits and demonstrate a two-chip interconnect for a total system size of 20,000 qubits\cite{ionq2025}, and by 2030 to use this rapidly scaling architecture to produce a system entering a regime of over 20 million qubits.
 
 An up to date (August 2025) roadmap summary of the major players in quantum computing is given by Quantum Insider\cite{quantuminsider2025}. The summary of the roadmaps shows very promising, if not optimistic, near term goals of reaching various different milestones, from aiming for large qubit counts, to smaller but highly fault tolerant logical qubit systems. However, it is important to note that these roadmaps are projections based on current understanding and technology trends, and the actual pace of progress may will likely due to unforeseen technical challenges or breakthroughs.
+
+\section{. Conclusion}
+While we are still a long way from building large scale, fault tolerant quantum computers capable of solving practical problems beyond the reach of classical computers, significant progress has been made in recent years. Advances in qubit technologies, error correction codes, and quantum algorithms have brought us closer to realizing the potential of quantum computing. We have already entered the era of Noisy Intermediate Scale Quantum (NISQ) devices, which, despite their limitations, provide valuable platforms for exploring quantum algorithms and applications. Quantum Hardware-as-a-Service (QHaaS) models are making quantum computing more accessible to researchers and developers via the cloud from companies like AWS, which fosters smaller scale innovation and experimentation in the field without the need for vast capital to invest in hardware. 
+
+With huge players like IBM, Google, Microsoft, Intel, and various startups investing heavily in quantum research and development, the pace of innovation is accelerating. Collaborative efforts between academia, industry, and government agencies are driving advancements across multiple fronts, from fundamental physics to engineering and software development.
+
+However, many challenges remain, including improving qubit coherence times, gate fidelities, and scaling up qubit counts while managing complexity and control. Continued research and development across multiple disciplines will be essential to overcome these hurdles and unlock the transformative capabilities of quantum computing at scale.
 
 \newpage
 
