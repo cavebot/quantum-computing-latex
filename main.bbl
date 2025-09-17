@@ -108,6 +108,127 @@
       \verb 10.1098/rspa.1985.0070
       \endverb
     \endentry
+    \entry{benioff1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4812aa87e8737abc646b2e39601ec05c}{%
+           family={Benioff},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{fullhash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{fullhashraw}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{bibnamehash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{authorbibnamehash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{authornamehash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{authorfullhash}{4812aa87e8737abc646b2e39601ec05c}
+      \strng{authorfullhashraw}{4812aa87e8737abc646b2e39601ec05c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of the New York Academy of Sciences}
+      \field{month}{12}
+      \field{title}{Quantum Mechanical Hamiltonian Models of Computers}
+      \field{volume}{480}
+      \field{year}{1986}
+      \field{pages}{475\bibrangedash 486}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/j.1749-6632.1986.tb12450.x
+      \endverb
+    \endentry
+    \entry{Igeta:88}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=38e2290e3f39e52c7293e41b29f5fe06}{%
+           family={Igeta},
+           familyi={I\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a2dea02190dd3505b7481a8d5d835b4c}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{fullhash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{fullhashraw}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{bibnamehash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{authorbibnamehash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{authornamehash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{authorfullhash}{267fe27393a16d420999b84fcc3c4b79}
+      \strng{authorfullhashraw}{267fe27393a16d420999b84fcc3c4b79}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Quantum Electronics}
+      \field{journaltitle}{International Conference on Quantum Electronics}
+      \field{title}{Quantum mechanical computers with single atom and photon fields}
+      \field{year}{1988}
+      \field{pages}{TuI4}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://opg.optica.org/abstract.cfm?URI=IQEC-1988-TuI4
+      \endverb
+      \verb{url}
+      \verb https://opg.optica.org/abstract.cfm?URI=IQEC-1988-TuI4
+      \endverb
+      \keyw{Energy; Information processing; Interferometers; Phase shift; Quantum noise; Switching}
+    \endentry
+    \entry{10.1145/167088.167097}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=36f07714b3f63f9e6b17f2c96124e0f0}{%
+           family={Bernstein},
+           familyi={B\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=64b47afeffedcc077d514b035c0d652e}{%
+           family={Vazirani},
+           familyi={V\bibinitperiod},
+           given={Umesh},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{fullhash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{fullhashraw}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{bibnamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authorbibnamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authornamehash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authorfullhash}{62514a20b64142c2e065c2143d4b61d3}
+      \strng{authorfullhashraw}{62514a20b64142c2e065c2143d4b61d3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Twenty-Fifth Annual ACM Symposium on Theory of Computing}
+      \field{isbn}{0897915917}
+      \field{series}{STOC '93}
+      \field{title}{Quantum complexity theory}
+      \field{year}{1993}
+      \field{pages}{11\bibrangedash 20}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/167088.167097
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/167088.167097
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/167088.167097
+      \endverb
+    \endentry
     \entry{Deutsch1992RapidSO}{article}{}{}
       \name{author}{2}{}{%
         {{hash=f6c8e450bcdca89973765cf5d2daf6f1}{%
@@ -794,8 +915,8 @@
       \strng{authornamehash}{84579f3f095941cba9a7e3acf22af7fc}
       \strng{authorfullhash}{3d5e1fb484b7848375171408cc43112c}
       \strng{authorfullhashraw}{3d5e1fb484b7848375171408cc43112c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -807,7 +928,7 @@
       \range{pages}{5}
     \endentry
     \entry{paetznick2024demonstrationlogicalqubitsrepeated}{misc}{}{}
-      \name{author}{32}{}{%
+      \name{author}{3}{}{%
         {{hash=6bcb251ea60ca7b8c36a21529188cd3f}{%
            family={Paetznick},
            familyi={P\bibinitperiod},
@@ -820,167 +941,24 @@
            giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
            prefix={da},
            prefixi={d\bibinitperiod}}}%
-        {{hash=cf64ce48d26332a1bae83b81b766ac76}{%
-           family={Ryan-Anderson},
-           familyi={R\bibinithyphendelim A\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=87d15ad27baa3490aed8624695929e10}{%
-           family={Bello-Rivas},
-           familyi={B\bibinithyphendelim R\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=f9543ee6f25bd1e5154f335838fc67a5}{%
-           family={III},
-           familyi={I\bibinitperiod},
-           given={J.\bibnamedelimi P.\bibnamedelimi Campora},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=aed0ba6947eac1fca9821bee93586d88}{%
-           family={Chernoguzov},
-           familyi={C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ccaab9d1f37bec349b002ebaa9f5232d}{%
-           family={Dreiling},
-           familyi={D\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=b0fcb55024ef1fc3bd6fcedafce3082f}{%
-           family={Foltz},
-           familyi={F\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=a226bc60b661af166c8d72cc9ff2e5fd}{%
-           family={Frachon},
-           familyi={F\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=166904fd2267074524df622b58705aed}{%
-           family={Gaebler},
-           familyi={G\bibinitperiod},
-           given={J.\bibnamedelimi P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=27dbc1666a8751e1a23813829dadcedc}{%
-           family={Gatterman},
-           familyi={G\bibinitperiod},
-           given={T.\bibnamedelimi M.},
-           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=75f0a8f289a3c2e5cbc4bfd0a6d1be71}{%
-           family={Grans-Samuelsson},
-           familyi={G\bibinithyphendelim S\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=efeb9366c3c9ec01d2cda90a662ea3ae}{%
-           family={Gresh},
-           familyi={G\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=6d17d9732b32d8474fd90eaf9156f03f}{%
-           family={Hayes},
-           familyi={H\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=5634c8da262a84d4a170d0fc4bd85012}{%
-           family={Hewitt},
-           familyi={H\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-        {{hash=7b805cc8ac505fc9dd10223789e5fa8c}{%
-           family={Holliman},
-           familyi={H\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=95fb4283f844bb84ae900f0e527be7a6}{%
-           family={Horst},
-           familyi={H\bibinitperiod},
-           given={C.\bibnamedelimi V.},
-           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=cd6c9250837eaaf84ab83ba2f4c9c9cb}{%
-           family={Johansen},
-           familyi={J\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=7fece8e84209fe1459edb5b680065c4f}{%
-           family={Lucchetti},
-           familyi={L\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=4a94c35dca2749edc8c389e855368371}{%
-           family={Matsuoka},
-           familyi={M\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=f6c0cbe4f92c7be5031ac9d056d27746}{%
-           family={Mills},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5736aec15167c1a5fcaa8a81060a2f22}{%
-           family={Moses},
-           familyi={M\bibinitperiod},
-           given={S.\bibnamedelimi A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=7e2c2f079ec9129ba048d80aef3640b1}{%
-           family={Neyenhuis},
-           familyi={N\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=dfb43d3dddeacdd554279c0c04a3e139}{%
-           family={Paz},
-           familyi={P\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=55fdf18433d7a575a8a68c0e6fd7bbd2}{%
-           family={Pino},
-           familyi={P\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=da5059947c1dac4b70c9554e9c334637}{%
-           family={Siegfried},
-           familyi={S\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=d925bdfc5a516de81a18cb95f8ed070c}{%
-           family={Sundaram},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ced83e96e0ccb657b0099bf619f16a04}{%
-           family={Tom},
-           familyi={T\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=a6e1ece342d7c2b633349ec4711bd64c}{%
-           family={Wernli},
-           familyi={W\bibinitperiod},
-           given={S.\bibnamedelimi J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=c6796ba4124ca443e9b85d23e4b8966b}{%
-           family={Zanner},
-           familyi={Z\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=026054a032367e4f58e7ec06ff791886}{%
-           family={Stutz},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi P.},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=05e152a441edfd55949d13002b86fbfc}{%
-           family={Svore},
-           familyi={S\bibinitperiod},
-           given={K.\bibnamedelimi M.},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=d2fd6b5c6c6eadb66b4a61a9ef657650}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={C.\bibnamedelimi Ryan-Anderson},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinithyphendelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{27feda368ab3a9226412d211ba2a3f43}
-      \strng{fullhash}{9f2bd64456018c64b5ee094071f59f2e}
-      \strng{fullhashraw}{9f2bd64456018c64b5ee094071f59f2e}
-      \strng{bibnamehash}{9f2bd64456018c64b5ee094071f59f2e}
-      \strng{authorbibnamehash}{9f2bd64456018c64b5ee094071f59f2e}
-      \strng{authornamehash}{27feda368ab3a9226412d211ba2a3f43}
-      \strng{authorfullhash}{9f2bd64456018c64b5ee094071f59f2e}
-      \strng{authorfullhashraw}{9f2bd64456018c64b5ee094071f59f2e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{fullhash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{fullhashraw}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{bibnamehash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{authorbibnamehash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{authornamehash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{authorfullhash}{71aa75f5142d6dcc74d81140954a9c4b}
+      \strng{authorfullhashraw}{71aa75f5142d6dcc74d81140954a9c4b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{quant-ph}
@@ -1265,6 +1243,263 @@
       \field{year}{2025}
       \field{pages}{920\bibrangedash 926}
       \range{pages}{7}
+    \endentry
+    \entry{postquantum2024}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=2911da1c27ec2874718cafe07c5571d1}{%
+           family={Ivezic},
+           familyi={I\bibinitperiod},
+           given={Marin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{fullhash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{fullhashraw}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{bibnamehash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{authorbibnamehash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{authornamehash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{authorfullhash}{2911da1c27ec2874718cafe07c5571d1}
+      \strng{authorfullhashraw}{2911da1c27ec2874718cafe07c5571d1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{IBM Unveils 156-Qubit ‘Heron R2’ Quantum Processor}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://postquantum.com/industry-news/ibm-heron-r2-quantum/
+      \endverb
+      \verb{url}
+      \verb https://postquantum.com/industry-news/ibm-heron-r2-quantum/
+      \endverb
+    \endentry
+    \entry{atom2023}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=553409b194f60eee459545cb57018853}{%
+           family={Computing},
+           familyi={C\bibinitperiod},
+           given={Atom},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{553409b194f60eee459545cb57018853}
+      \strng{fullhash}{553409b194f60eee459545cb57018853}
+      \strng{fullhashraw}{553409b194f60eee459545cb57018853}
+      \strng{bibnamehash}{553409b194f60eee459545cb57018853}
+      \strng{authorbibnamehash}{553409b194f60eee459545cb57018853}
+      \strng{authornamehash}{553409b194f60eee459545cb57018853}
+      \strng{authorfullhash}{553409b194f60eee459545cb57018853}
+      \strng{authorfullhashraw}{553409b194f60eee459545cb57018853}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{Atom Computing Unveils 1225-Qubit Quantum Computer}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://atom-computing.com/quantum-computing-technology/
+      \endverb
+      \verb{url}
+      \verb https://atom-computing.com/quantum-computing-technology/
+      \endverb
+    \endentry
+    \entry{DWave2024}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=9a491db8fd206d15ca71ec3eb9779983}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={D-Wave\bibnamedelima Systems},
+           giveni={D\bibinithyphendelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{fullhash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{fullhashraw}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{bibnamehash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{authorbibnamehash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{authornamehash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{authorfullhash}{9a491db8fd206d15ca71ec3eb9779983}
+      \strng{authorfullhashraw}{9a491db8fd206d15ca71ec3eb9779983}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{Advantage2 Calibration}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.dwavequantum.com/company/newsroom/press-release/d-wave-achieves-significant-milestone-with-calibration-of-4-400-qubit-advantage2-processor/
+      \endverb
+      \verb{url}
+      \verb https://www.dwavequantum.com/company/newsroom/press-release/d-wave-achieves-significant-milestone-with-calibration-of-4-400-qubit-advantage2-processor/
+      \endverb
+    \endentry
+    \entry{alase2025decoherencemajoranaqubits1f}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=9ff574ceac71809beba9de0b8549ce2f}{%
+           family={Alase},
+           familyi={A\bibinitperiod},
+           given={Abhijeet},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37a683a6552c0e32b3987f37d39ae771}{%
+           family={Goffage},
+           familyi={G\bibinitperiod},
+           given={Marcus\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b4c5871e7cbe69f138010b9549c3be92}{%
+           family={Cassidy},
+           familyi={C\bibinitperiod},
+           given={Maja\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6b427f173157d66fe5844ec3509e10fe}{%
+           family={Coppersmith},
+           familyi={C\bibinitperiod},
+           given={Susan\bibnamedelima N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2536ffe7d0325745cd45201974dac076}
+      \strng{fullhash}{a81d8e679e825dfa863264e55940ab27}
+      \strng{fullhashraw}{a81d8e679e825dfa863264e55940ab27}
+      \strng{bibnamehash}{a81d8e679e825dfa863264e55940ab27}
+      \strng{authorbibnamehash}{a81d8e679e825dfa863264e55940ab27}
+      \strng{authornamehash}{2536ffe7d0325745cd45201974dac076}
+      \strng{authorfullhash}{a81d8e679e825dfa863264e55940ab27}
+      \strng{authorfullhashraw}{a81d8e679e825dfa863264e55940ab27}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cond-mat.mes-hall}
+      \field{eprinttype}{arXiv}
+      \field{title}{Decoherence of Majorana qubits by 1/f noise}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2506.22394
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2506.22394
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2506.22394
+      \endverb
+    \endentry
+    \entry{ionq2025}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=db1a285fd361f4a0d64080eec2a1dee8}{%
+           family={IonQ},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{bibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorbibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authornamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{IonQ's Accelerated Roadmap: Turning Quantum Ambition into Reality}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \endverb
+      \verb{url}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \endverb
+    \endentry
+    \entry{quantuminsider2025}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=93ee2a54f0a08760edfcf1019d1922c8}{%
+           family={Insider},
+           familyi={I\bibinitperiod},
+           given={Quantum},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{fullhash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{fullhashraw}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{bibnamehash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{authorbibnamehash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{authornamehash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{authorfullhash}{93ee2a54f0a08760edfcf1019d1922c8}
+      \strng{authorfullhashraw}{93ee2a54f0a08760edfcf1019d1922c8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{Quantum Computing Hardware Roadmap 2025}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://thequantuminsider.com/2025/05/16/quantum-computing-roadmaps-a-look-at-the-maps-and-predictions-of-major-quantum-players/
+      \endverb
+      \verb{url}
+      \verb https://thequantuminsider.com/2025/05/16/quantum-computing-roadmaps-a-look-at-the-maps-and-predictions-of-major-quantum-players/
+      \endverb
+    \endentry
+    \entry{quantinuum2025}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=a4e2fd57a29e49088c94209f0f766d1d}{%
+           family={Quantinuum},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{fullhash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{fullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{bibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorbibnamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authornamehash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorfullhash}{a4e2fd57a29e49088c94209f0f766d1d}
+      \strng{authorfullhashraw}{a4e2fd57a29e49088c94209f0f766d1d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{Quantinuum Unveils H2-1: The World's Most Powerful Quantum Computer}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
+      \endverb
+      \verb{url}
+      \verb https://www.quantinuum.com/products-solutions/quantinuum-systems/helios
+      \endverb
+    \endentry
+    \entry{ionq2025a}{website}{}{}
+      \name{author}{1}{}{%
+        {{hash=db1a285fd361f4a0d64080eec2a1dee8}{%
+           family={IonQ},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{fullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{bibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorbibnamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authornamehash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhash}{db1a285fd361f4a0d64080eec2a1dee8}
+      \strng{authorfullhashraw}{db1a285fd361f4a0d64080eec2a1dee8}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2025-09-16}
+      \field{title}{IonQ Roadmap}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \endverb
+      \verb{url}
+      \verb https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

@@ -2381,9 +2381,9 @@
     <bcf:citekey order="1" intorder="1">Manin1980</bcf:citekey>
     <bcf:citekey order="2" intorder="1">Feynman1982</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Deutsch1985</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">BBenioff1987</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Yamamoto1998</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Bernstein1993</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">benioff1986</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Igeta:88</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">10.1145/167088.167097</bcf:citekey>
     <bcf:citekey order="7" intorder="1">Deutsch1992RapidSO</bcf:citekey>
     <bcf:citekey order="8" intorder="1">365700</bcf:citekey>
     <bcf:citekey order="9" intorder="1">grover1996fastquantummechanicalalgorithm</bcf:citekey>
@@ -2402,20 +2402,26 @@
     <bcf:citekey order="22" intorder="1">Various2023</bcf:citekey>
     <bcf:citekey order="23" intorder="1">Various2024</bcf:citekey>
     <bcf:citekey order="24" intorder="1">Various2025</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">99.9percent-required-fidelity</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">99.9percent-required-fidelity</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Srinivas_2021</bcf:citekey>
-    <bcf:citekey order="27" intorder="2">gemanium999</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">PRXQuantum.5.040342</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">GoogleQAI2023</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">FTQM2024</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">paetznick2024demonstrationlogicalqubitsrepeated</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">beauregard2003circuitshorsalgorithmusing</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Gidney_2021</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">10.1007/978-3-032-01878-6_13</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">NatureQC2023</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">google2025</bcf:citekey>
-    <bcf:citekey order="37" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">Srinivas_2021</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">gemanium999</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">PRXQuantum.5.040342</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">GoogleQAI2023</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">FTQM2024</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">paetznick2024demonstrationlogicalqubitsrepeated</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">beauregard2003circuitshorsalgorithmusing</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Gidney_2021</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">10.1007/978-3-032-01878-6_13</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">NatureQC2023</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">google2025</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">postquantum2024</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Quantinuum2025</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">IonQ2025</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">atom2023</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">DWave2024</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">alase2025decoherencemajoranaqubits1f</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">ionq2025</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">quantuminsider2025</bcf:citekey>
+    <bcf:citekey order="43" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
