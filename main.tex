@@ -41,7 +41,7 @@ In 1980, mathematician Yuri Manin discussed the concept of a quantum computer in
 `Simulating physics with computers', introducing the idea of simulating quantum systems using quantum computers\cite{Feynman1982}. Feynman highlighted the limitations of classical computers in simulating the exponentially growing state space of quantum systems, and how quantum computers could perform these simulations more efficiently.
 
 
-Following these initial years of foundational work, the field began to gain traction, leading to another \textit{10 years} of significant theoretical developments. In 1985, David Deutsch advanced quantum computing theory by rigorously defining the Universal Quantum Turing Machine—the quantum analog of a classical Turing machine—capable of performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}.
+Following these initial years of foundational work, the field began to gain traction, leading to another \textit{10 years} of significant theoretical developments. In 1985, David Deutsch advanced quantum computing theory by rigorously defining the Universal Quantum Turing Machine, the quantum analog of a classical Turing machine, capable of performing any computation that a classical computer can, but more efficiently for certain problems\cite{Deutsch1985}.
 Further theoretical progress included contributions such as reversible quantum computation by Paul Benioff between 1985 and 1987\cite{benioff1986}, the first proposal of a physically realizable quantum computer using atoms and photons in 1998\cite{Igeta:88}, and attempts to define quantum complexity classes in 1989\cite{10.1145/167088.167097}. These efforts eventually led to the definition of Bounded-Error Quantum Polynomial Time (BQP) problems, an important class in complexity theory that can be efficiently solved by quantum computers in polynomial time.
 
 It was not until 1992 that the first quantum algorithm was proposed by Deutsch and Jozsa\cite{Deutsch1992RapidSO},
@@ -128,34 +128,41 @@ In practice, the experimental implementation of quantum gates depends on the phy
   \hline
   \textbf{Year} & \textbf{Qubit Count} & \textbf{Description} \\
   \hline
-  1995 & 2 & First experimental demonstration of a quantum logic gate using trapped ions \\
+  1995 & 2 & First two-qubit logic gate (CNOT) demonstrated with trapped ions (Monroe/Wineland) \\
   \hline
-  2001 & 7 & Implementation of Shor's algorithm on a 7 qubit NMR quantum computer \\
+  2001 & 7 & Shor’s algorithm implemented on a 7-qubit liquid-state NMR computer (Vandersypen \textit{et al.}) \\
   \hline
-  2005 & 8 & Demonstration of an 8 qubit register using trapped ions \\
+  2005 & 8 & Entangled register of up to eight trapped-ion qubits (Häffner/Blatt) \\
   \hline
-  2011 & 5 & D-Wave Systems announced a 512 qubit quantum annealer \\
+  2016 & 5 & IBM puts a 5-qubit superconducting processor on the public cloud (IBM Quantum Experience) \\
   \hline
-  2016 & 16 & IBM unveiled a 16 qubit superconducting quantum processor \\
+  2007 & 28 & D-Wave demonstrates a 28-qubit quantum annealer \\
   \hline
-  2017 & 20 & Google announced a 20 qubit superconducting quantum processor \\
+  2011 & 14 & A 14-qubit quantum register is reported (Monz/Schindler) \\
   \hline
-  2019 & 53 & Google's Sycamore processor achieved quantum supremacy with 53 qubits \\
+  2015 & 1000 & D-Wave announce 1000 qubit barrier broken (quantum annealer)\\
   \hline
-  2020 & 65 & Honeywell announced a 65 qubit trapped ion quantum computer \\
+  2017 & 20 & IBM makes a 20-qubit superconducting system available; 50-qubit prototype shown \\
   \hline
-  2021 & 127 & IBM unveiled a 127 qubit superconducting quantum processor \\
+  2019 & 53 & Google “Sycamore” achieves a quantum-supremacy experiment with 53 qubits \\
   \hline
-  2022 & 433 & IonQ announced a 433 qubit trapped ion quantum computer \\
+  2020 & 65 & IBM “Hummingbird” (65-qubit) released to IBM Quantum Network members \\
   \hline
-  2023 & 1000+ & Various companies announced plans for quantum processors with over 1000 qubits \\
+  2020 & 5000 & D-Wave announce their 5000 qubit quantum annealer "Advantage" \\
   \hline
-  2024 & 2000+ & Continued advancements with processors exceeding 2000 qubits \\
+  2021 & 127 & IBM “Eagle” 127-qubit processor unveiled \\
   \hline
-  2025 & 5000+ & Leading companies project quantum processors with over 5000 qubits \\
+  2022 & 433 & IBM “Osprey” 433-qubit processor announced \\
+  \hline
+  2023 & 1{,}121 & IBM “Condor” 1{,}121-qubit processor announced \\
+  \hline
+  2024 & $\sim$1{,}180 & Atom Computing announces a neutral-atom array populated with $\sim$1{,}180 qubits (gate-based) \\
+  \hline
+  2025 & — & Industry focus is logical/error corrected computing rather than increased qubit counts \\
   \hline
   \end{tabular}
-  \caption{Key advancements in qubit counts from 1995 to 2025 and their corresponding platforms.}\label{tab:qubit_counts}
+  \caption{Key gate-model qubit-count milestones (1995–2025). See text for sources and notes on comparability.}
+  \label{tab:gate_model_qubit_counts}
 \end{table*}
 
 \subsection{. Decoherence, Errors, and Correction}
