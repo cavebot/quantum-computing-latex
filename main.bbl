@@ -465,78 +465,30 @@
       \range{pages}{4}
     \endentry
     \entry{Srinivas_2021}{article}{}
-      \name{author}{12}{}{%
+      \name{author}{2}{}{%
         {{hash=4eb60145ba6536a54b8f67b04cde592c}{%
            family={Srinivas},
            familyi={S\bibinitperiod},
            given={R.},
            giveni={R\bibinitperiod}}}%
-        {{hash=5e44d1e6e2a7c2b729efc88f984155a9}{%
-           family={Burd},
-           familyi={B\bibinitperiod},
-           given={S.\bibnamedelimi C.},
-           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=b7727acb86f5f653f5ff31301237b160}{%
-           family={Knaack},
-           familyi={K\bibinitperiod},
-           given={H.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=05a699eb4ca6bc5839827e47b4858f64}{%
-           family={Sutherland},
-           familyi={S\bibinitperiod},
-           given={R.\bibnamedelimi T.},
-           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=63684bdf136114de19d3d4ec6b6c9459}{%
-           family={Kwiatkowski},
-           familyi={K\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=22696441c45a1a69a4df7bb9ecc9417f}{%
-           family={Glancy},
-           familyi={G\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=86245ccbf7484539433cb7fa866f0959}{%
-           family={Knill},
-           familyi={K\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
-           family={Wineland},
-           familyi={W\bibinitperiod},
-           given={D.\bibnamedelimi J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=abd2182e135345700f424b3a28914771}{%
-           family={Leibfried},
-           familyi={L\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=28d694b647a3c049739a6a926bf174d5}{%
-           family={Wilson},
-           familyi={W\bibinitperiod},
-           given={A.\bibnamedelimi C.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=ad332aa5575ab2bd9497c6987aec51a7}{%
-           family={Allcock},
-           familyi={A\bibinitperiod},
-           given={D.\bibnamedelimi T.\bibnamedelimi C.},
-           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=99643fbfb8c6fb69e7f71b08eab27cf2}{%
-           family={Slichter},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi H.},
-           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0a9bce828eafe29cf7b99ed42bc6c7fb}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={Burd},
+           giveni={B\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
       \list{publisher}{2}{%
         {Springer Science}%
         {Business Media LLC}%
       }
-      \strng{namehash}{f37fa87e8b4e90cb00cbbf39926ff1c3}
-      \strng{fullhash}{7f95cd029cf35cc68a54adfa80239273}
-      \strng{bibnamehash}{7f95cd029cf35cc68a54adfa80239273}
-      \strng{authorbibnamehash}{7f95cd029cf35cc68a54adfa80239273}
-      \strng{authornamehash}{f37fa87e8b4e90cb00cbbf39926ff1c3}
-      \strng{authorfullhash}{7f95cd029cf35cc68a54adfa80239273}
+      \strng{namehash}{6444bc23b3d20dd7cb0564d4221e6a59}
+      \strng{fullhash}{6444bc23b3d20dd7cb0564d4221e6a59}
+      \strng{bibnamehash}{6444bc23b3d20dd7cb0564d4221e6a59}
+      \strng{authorbibnamehash}{6444bc23b3d20dd7cb0564d4221e6a59}
+      \strng{authornamehash}{6444bc23b3d20dd7cb0564d4221e6a59}
+      \strng{authorfullhash}{6444bc23b3d20dd7cb0564d4221e6a59}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1019,66 +971,26 @@
       \range{pages}{32}
     \endentry
     \entry{NatureQC2023}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
+      \name{author}{2}{}{%
         {{hash=e05756ae4f4a32149aa38db0c65d4e1e}{%
            family={King},
            familyi={K\bibinitperiod},
            given={A.\bibnamedelimi D.},
            giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=f00e6a60778a3c7fc61a4d5e1d354d7d}{%
-           family={Lanting},
-           familyi={L\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=5c23a7c9eba5986cda02671e379dd55e}{%
-           family={Harris},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=8a59c6406bf8717c008d0245b0006cf0}{%
-           family={Amin},
-           familyi={A\bibinitperiod},
-           given={M.\bibnamedelimi H.},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=53fb31516d6e71d9fccc532b2f985a0b}{%
-           family={Andriyash},
-           familyi={A\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=d8c3307f54bf0b08d429490ee7dec2b8}{%
-           family={Isakov},
-           familyi={I\bibinitperiod},
-           given={S.\bibnamedelimi V.},
-           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
-        {{hash=a53f598e643a34ea6f3ab45e29886e00}{%
-           family={Johnson},
-           familyi={J\bibinitperiod},
-           given={M.\bibnamedelimi W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=883d1c8f1b130bde471d8526a88ebfae}{%
-           family={Bunyk},
-           familyi={B\bibinitperiod},
-           given={P.\bibnamedelimi I.},
-           giveni={P\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
-        {{hash=1a244c1cfcef5fea89af4e3643c16f21}{%
-           family={Rich},
-           familyi={R\bibinitperiod},
-           given={C.},
-           giveni={C\bibinitperiod}}}%
-        {{hash=60360dd5b120571e4f7236feb481b1ce}{%
-           family={Thom},
-           familyi={T\bibinitperiod},
-           given={M.\bibnamedelimi C.},
-           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=614ccf87f7288c8abeb30a286063e0ba}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           given={T.\bibnamedelimi Lanting},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{8c5c261cdbaa1aab86651541c2e0893b}
-      \strng{fullhash}{4710db9fed8385be16d39ea2825cca95}
-      \strng{bibnamehash}{4710db9fed8385be16d39ea2825cca95}
-      \strng{authorbibnamehash}{4710db9fed8385be16d39ea2825cca95}
-      \strng{authornamehash}{8c5c261cdbaa1aab86651541c2e0893b}
-      \strng{authorfullhash}{4710db9fed8385be16d39ea2825cca95}
+      \strng{namehash}{1d01346b06e5f7629dcc825b0e69f81b}
+      \strng{fullhash}{1d01346b06e5f7629dcc825b0e69f81b}
+      \strng{bibnamehash}{1d01346b06e5f7629dcc825b0e69f81b}
+      \strng{authorbibnamehash}{1d01346b06e5f7629dcc825b0e69f81b}
+      \strng{authornamehash}{1d01346b06e5f7629dcc825b0e69f81b}
+      \strng{authorfullhash}{1d01346b06e5f7629dcc825b0e69f81b}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

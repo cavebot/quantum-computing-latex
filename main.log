@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.11)  20 SEP 2025 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.11)  20 SEP 2025 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -871,13 +871,14 @@ l.215
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6] [7] [8] [9]
+ [6] [7] [8]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 320.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 320.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 320.
+ [9]
 LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 320.
  (/usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
@@ -898,7 +899,6 @@ Package biblatex Warning: No driver for 'website'.
 Package biblatex Warning: No driver for 'website'.
 (biblatex)                Using fallback driver on input line 320.
 
-[10]
 
 Package biblatex Warning: No driver for 'website'.
 (biblatex)                Using fallback driver on input line 320.
@@ -913,9 +913,7 @@ Package biblatex Warning: No driver for 'website'.
 
 
 AED: pageslts setting LastPage 
-[11
-
-]
+[10]
 \c@pagesLTS.arabic.1.local.count=\count436
  
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -923,7 +921,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is odd.
+Package pageslts Info: Total number of pages is even.
 
 
 (./main.aux)
@@ -942,18 +940,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21968 strings out of 476106
- 375664 string characters out of 5793933
- 1955975 words of memory out of 5000000
+ 21967 strings out of 476106
+ 375657 string characters out of 5793933
+ 1957975 words of memory out of 5000000
  43598 multiletter control sequences out of 15000+600000
  571868 words of font info for 68 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  90i,26n,93p,1917b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebtl10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/tbmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.525pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebsr17.868pk></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb>
-Output written on main.pdf (11 pages, 675099 bytes).
+Output written on main.pdf (10 pages, 674070 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 369 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 772 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 74 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 
