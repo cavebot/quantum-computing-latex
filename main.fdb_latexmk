@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1758388025.43723 "main.bcf" "main.bbl" "main" 1758388306.69822 0
+["biber main"] 1758388025.43723 "main.bcf" "main.bbl" "main" 1758390145.85221 0
   "bibliography.bib" 1758386165.51591 12061 365175b428d01ad434069ff93eee8565 ""
-  "main.bcf" 1758388306.59189 109427 4eedb08b53b9fda7d280ccfc1ab25c25 "pdflatex"
+  "main.bcf" 1758390145.72187 109427 4eedb08b53b9fda7d280ccfc1ab25c25 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1758388302.26182 "/workspaces/quantum-computing-latex/main.tex" "main.pdf" "main" 1758388306.69858 0
+["pdflatex"] 1758390141.52289 "/workspaces/quantum-computing-latex/main.tex" "main.pdf" "main" 1758390145.85257 0
   "/etc/texmf/web2c/texmf.cnf" 1757608562.52064 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.540pk" 1757608675.37263 18100 5c0b8f04030be27cf8e33427451f5444 ""
   "/home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.600pk" 1757608678.68063 20452 fd9ed969f24017a0ab760a59126bf976 ""
@@ -160,15 +160,15 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1757608576.80464 5060680 3c19bb1aa4241023850b9c35b3393231 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757608597 6830981 61c4881cf5a889ce1bc2148d6b1ff7ef ""
-  "/workspaces/quantum-computing-latex/main.tex" 1758388301.75289 47016 8a4cec2cd63286977f13c167a544b2f1 ""
+  "/workspaces/quantum-computing-latex/main.tex" 1758390141.13487 47017 6adca3d51b3f777824f4ec0725e53ee3 ""
   "assets/LOGO-UF-SOLO (1).png" 1757608401.79365 524631 e8165d3c3ece06eb56a9ea84f3b1f832 ""
   "assets/bloch-sphere.png" 1757954993.18155 30676 9a4bcd483280b04cc3b47ff9c00dacf0 ""
   "elbioimp2.cls" 1758386165.51591 5398 6d04abe054b955f34cb24195f7957d43 ""
-  "main.aux" 1758388306.58789 10888 62d9556007e81df215d3eeb32e737a93 "pdflatex"
+  "main.aux" 1758390145.71787 10888 62d9556007e81df215d3eeb32e737a93 "pdflatex"
   "main.bbl" 1758388026.39189 58512 c40e88cec3be46b38d8efa16e98725dd "biber main"
-  "main.out" 1758388306.59089 6232 05c465afb4de3b2ced8bc6e9cab3dd2c "pdflatex"
-  "main.run.xml" 1758388306.59289 2438 c7fa435e6e6e85a94d6d1293e3e300a1 "pdflatex"
-  "main.tex" 1758388301.75289 47016 8a4cec2cd63286977f13c167a544b2f1 ""
+  "main.out" 1758390145.72087 6232 05c465afb4de3b2ced8bc6e9cab3dd2c "pdflatex"
+  "main.run.xml" 1758390145.72287 2438 c7fa435e6e6e85a94d6d1293e3e300a1 "pdflatex"
+  "main.tex" 1758390141.13487 47017 6adca3d51b3f777824f4ec0725e53ee3 ""
   (generated)
   "main.aux"
   "main.bcf"
