@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.11)  20 SEP 2025 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.11)  20 SEP 2025 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,92 +825,97 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <9> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 40.
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 62.
- (/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
-File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-)
-Underfull \vbox (badness 5548) has occurred while \output is active []
-
-<assets/LOGO-UF-SOLO (1).png, id=130, 1304.875pt x 301.125pt>
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 63.
+<assets/LOGO-UF-SOLO (1).png, id=125, 1304.875pt x 301.125pt>
 File: assets/LOGO-UF-SOLO (1).png Graphic file (type png)
 <use assets/LOGO-UF-SOLO (1).png>
-Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 64.
+Package pdftex.def Info: assets/LOGO-UF-SOLO (1).png  used on input line 70.
 (pdftex.def)             Requested size: 384.11221pt x 88.64272pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./assets/LOGO-UF-SOLO (1).png>]
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 85.
+ (/usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
 
-LaTeX Warning: Reference `tab:qubit_counts' on page 2 undefined on input line 66.
+LaTeX Warning: Reference `tab:qubit_counts' on page 2 undefined on input line 89.
 
-<assets/bloch-sphere.png, id=158, 123.0999pt x 139.2402pt>
+[2]
+<assets/bloch-sphere.png, id=164, 123.0999pt x 139.2402pt>
 File: assets/bloch-sphere.png Graphic file (type png)
 <use assets/bloch-sphere.png>
-Package pdftex.def Info: assets/bloch-sphere.png  used on input line 96.
+Package pdftex.def Info: assets/bloch-sphere.png  used on input line 119.
 (pdftex.def)             Requested size: 181.38632pt x 205.17778pt.
-[2] <xymatrix 5x4 1006> [3
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.125 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.125 
-       <./assets/bloch-sphere.png>]
-Overfull \hbox (5.26059pt too wide) in paragraph at lines 128--165
+l.132 
+       <./assets/bloch-sphere.png>] <xymatrix 5x4 1006>
+Overfull \hbox (5.26059pt too wide) in paragraph at lines 151--188
  [][] 
  []
 
-[4] [5
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.203 
+      ] [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.196 
-      ] [6] [7] [8]
+l.215 
+      ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6] [7] [8] [9]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 297.
+(Font)              <9> on input line 320.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 297.
+(Font)              <6> on input line 320.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <9> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 297.
-LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 297.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 320.
+LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 320.
  (/usr/share/texlive/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
-) [9]
+)
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
-
-
-Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
+
+[10]
+
+Package biblatex Warning: No driver for 'website'.
+(biblatex)                Using fallback driver on input line 320.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
 
 
 Package biblatex Warning: No driver for 'website'.
-(biblatex)                Using fallback driver on input line 297.
+(biblatex)                Using fallback driver on input line 320.
 
 
 AED: pageslts setting LastPage 
-[10]
+[11
+
+]
 \c@pagesLTS.arabic.1.local.count=\count436
  
 AED: pageslts setting VeryLastPage via AfterLastShipout 
@@ -918,7 +923,7 @@ AED: pageslts setting VeryLastPage via AfterLastShipout
 AED: pageslts setting LastPages via AfterLastShipout 
 
 
-Package pageslts Info: Total number of pages is even.
+Package pageslts Info: Total number of pages is odd.
 
 
 (./main.aux)
@@ -937,18 +942,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21967 strings out of 476106
- 375657 string characters out of 5793933
- 1950975 words of memory out of 5000000
+ 21968 strings out of 476106
+ 375664 string characters out of 5793933
+ 1955975 words of memory out of 5000000
  43598 multiletter control sequences out of 15000+600000
  571868 words of font info for 68 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  90i,26n,93p,1917b,1785s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebtl10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/tbmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.525pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebsr17.868pk></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb>
-Output written on main.pdf (10 pages, 672618 bytes).
+ </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebtl10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/tbmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.540pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr9.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr8.525pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr10.600pk> </home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebsr17.868pk></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb>
+Output written on main.pdf (11 pages, 675099 bytes).
 PDF statistics:
- 771 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 369 compressed objects within 4 object streams
+ 75 named destinations out of 1000 (max. 500000)
  243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

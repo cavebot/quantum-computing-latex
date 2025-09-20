@@ -285,22 +285,22 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmo8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmo10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/tbmr10.tfm
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT ./assets/LOGO-UF-SOLO (1).png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT ./assets/bloch-sphere.png
-INPUT ./assets/bloch-sphere.png
-INPUT ./assets/bloch-sphere.png
-INPUT ./assets/bloch-sphere.png
-INPUT ./assets/bloch-sphere.png
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/tbmr10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/ebmo9.tfm
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
+INPUT ./assets/bloch-sphere.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/cmbr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cmbright/cmbrmi9.tfm
@@ -317,8 +317,8 @@ INPUT ./main.out
 INPUT main.run.xml
 OUTPUT main.run.xml
 INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebtl10.540pk
-INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo9.600pk
 INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/tbmr10.600pk
+INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo9.600pk
 INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmo10.600pk
 INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebbx10.540pk
 INPUT /home/vscode/.texlive2023/texmf-var/fonts/pk/ljfour/public/cmbright/ebmr9.600pk
